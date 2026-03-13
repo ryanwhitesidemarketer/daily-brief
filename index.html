@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWM Daily Brief — PPC Strategy Dashboard</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --card: #22262f;
+  --border: #2e3340;
+  --text: #e1e4ea;
+  --text-muted: #8b90a0;
+  --accent: #4f8ff7;
+  --green: #34d399;
+  --green-bg: rgba(52,211,153,.1);
+  --yellow: #fbbf24;
+  --yellow-bg: rgba(251,191,36,.1);
+  --red: #f87171;
+  --red-bg: rgba(248,113,113,.1);
+  --orange: #fb923c;
+  --orange-bg: rgba(251,146,60,.1);
+  --blue: #60a5fa;
+  --blue-bg: rgba(96,165,250,.1);
+  --purple: #a78bfa;
+  --purple-bg: rgba(167,139,250,.1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.5; min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 20px 32px; display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 16px;
+}
+.header h1 { font-size: 20px; font-weight: 600; }
+.header .subtitle { font-size: 13px; color: var(--text-muted); }
+.tab-bar { display: flex; gap: 4px; background: var(--bg); border-radius: 8px; padding: 4px; }
+.tab-bar button {
+  padding: 8px 20px; border: none; border-radius: 6px; background: transparent;
+  color: var(--text-muted); font-size: 14px; font-weight: 500; cursor: pointer; transition: all .15s;
+}
+.tab-bar button.active { background: var(--accent); color: #fff; }
+.tab-bar button:hover:not(.active) { background: var(--card); color: var(--text); }
+
+/* Container */
+.container { max-width: 1400px; margin: 0 auto; padding: 24px 32px; }
+
+/* Summary row */
+.summary-row {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px; margin-bottom: 28px;
+}
+.summary-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 18px 20px;
+}
+.summary-card .label {
+  font-size: 11px; color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: .5px; margin-bottom: 6px;
+}
+.summary-card .value { font-size: 26px; font-weight: 700; }
+.summary-card .sub { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+.val-green { color: var(--green); }
+.val-red { color: var(--red); }
+.val-yellow { color: var(--yellow); }
+.val-blue { color: var(--blue); }
+
+/* Section headers */
+.section-header {
+  font-size: 16px; font-weight: 700; margin: 28px 0 16px; padding-bottom: 10px;
+  border-bottom: 2px solid var(--border); display: flex; align-items: center; gap: 10px;
+}
+.section-count {
+  background: var(--accent); color: #fff; border-radius: 12px;
+  padding: 2px 10px; font-size: 12px; font-weight: 600;
+}
+
+/* Priority cards */
+.priority-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  margin-bottom: 12px; overflow: hidden; transition: all .2s;
+}
+.priority-card:hover { border-color: var(--accent); }
+.card-header {
+  padding: 16px 20px; cursor: pointer; display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 16px;
+}
+.card-left { flex: 1; }
+.card-rank {
+  font-size: 12px; font-weight: 700; color: var(--text-muted);
+  margin-bottom: 4px; display: flex; align-items: center; gap: 8px;
+}
+.card-title { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+.card-headline {
+  font-size: 13px; line-height: 1.5; padding: 6px 12px; border-radius: 6px;
+  margin-bottom: 8px; display: inline-block;
+}
+.headline-red { background: var(--red-bg); color: var(--red); }
+.headline-green { background: var(--green-bg); color: var(--green); }
+.headline-yellow { background: var(--yellow-bg); color: var(--yellow); }
+.headline-orange { background: var(--orange-bg); color: var(--orange); }
+.headline-blue { background: var(--blue-bg); color: var(--blue); }
+
+.card-metrics {
+  display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--text-muted);
+}
+.card-metric { display: flex; flex-direction: column; align-items: flex-start; }
+.card-metric .metric-val { font-size: 16px; font-weight: 700; color: var(--text); }
+.card-metric .metric-label { font-size: 10px; text-transform: uppercase; letter-spacing: .3px; }
+
+.card-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.badge {
+  font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 6px;
+  white-space: nowrap;
+}
+.badge-ecommerce { background: var(--purple-bg); color: var(--purple); }
+.badge-lead_gen { background: var(--blue-bg); color: var(--blue); }
+.badge-google_ads { background: rgba(66,133,244,.15); color: #4285f4; }
+.badge-meta_ads { background: rgba(24,119,242,.15); color: #1877f2; }
+.badge-bing_ads { background: rgba(0,137,123,.15); color: #00897b; }
+.expand-icon {
+  font-size: 18px; color: var(--text-muted); transition: transform .2s;
+  margin-top: 8px;
+}
+.priority-card.open .expand-icon { transform: rotate(180deg); }
+
+/* Card detail */
+.card-detail {
+  display: none; padding: 0 20px 20px; border-top: 1px solid var(--border);
+}
+.priority-card.open .card-detail { display: block; }
+
+.detail-section { margin-top: 16px; }
+.detail-section h4 {
+  font-size: 12px; text-transform: uppercase; letter-spacing: .5px;
+  color: var(--text-muted); margin-bottom: 10px;
+}
+
+/* Action items */
+.action-item {
+  background: var(--card); border-radius: 8px; padding: 12px 16px;
+  margin-bottom: 8px; font-size: 13px; line-height: 1.6;
+  border-left: 3px solid var(--accent);
+}
+.action-item strong { color: var(--accent); }
+
+/* Comparison grid */
+.comparison-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px; margin-top: 8px;
+}
+.comparison-card {
+  background: var(--card); border-radius: 8px; padding: 12px 16px;
+}
+.comparison-card .period {
+  font-size: 11px; text-transform: uppercase; color: var(--text-muted);
+  letter-spacing: .3px; margin-bottom: 8px;
+}
+.comparison-card .metric-row {
+  display: flex; justify-content: space-between; font-size: 13px;
+  padding: 3px 0; border-bottom: 1px solid var(--border);
+}
+.comparison-card .metric-row:last-child { border-bottom: none; }
+
+/* Campaign table */
+.campaign-table {
+  width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px;
+}
+.campaign-table th {
+  text-align: left; padding: 8px 12px; font-size: 10px; text-transform: uppercase;
+  letter-spacing: .5px; color: var(--text-muted); border-bottom: 1px solid var(--border);
+}
+.campaign-table td {
+  padding: 8px 12px; border-bottom: 1px solid rgba(46,51,64,.5);
+}
+.campaign-table tr:hover { background: var(--card); }
+.camp-flag {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px;
+}
+.camp-flag-high { background: var(--red); }
+.camp-flag-medium { background: var(--yellow); }
+.camp-flag-opportunity { background: var(--green); }
+.camp-status { font-size: 10px; color: var(--text-muted); }
+
+/* Remaining table */
+.remaining-table {
+  width: 100%; border-collapse: collapse; font-size: 13px;
+}
+.remaining-table th {
+  text-align: left; padding: 10px 14px; font-size: 10px; text-transform: uppercase;
+  letter-spacing: .5px; color: var(--text-muted); border-bottom: 2px solid var(--border);
+  cursor: pointer;
+}
+.remaining-table th:hover { color: var(--text); }
+.remaining-table td { padding: 10px 14px; border-bottom: 1px solid rgba(46,51,64,.5); }
+.remaining-table tr:hover { background: var(--card); }
+.health-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; }
+.health-green { background: var(--green); }
+.health-yellow { background: var(--yellow); }
+.health-red { background: var(--red); }
+
+/* Loading */
+.loading { text-align: center; padding: 60px; color: var(--text-muted); }
+.loading .spinner {
+  width: 36px; height: 36px; border: 3px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin .8s linear infinite; margin: 0 auto 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header, .container { padding-left: 16px; padding-right: 16px; }
+  .summary-row { grid-template-columns: repeat(2, 1fr); }
+  .card-metrics { gap: 10px; }
+  .comparison-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .summary-row { grid-template-columns: 1fr; }
+  .tab-bar button { padding: 6px 12px; font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>TWM Daily Brief</h1>
+    <div class="subtitle" id="subtitle">Loading...</div>
+  </div>
+  <div class="tab-bar">
+    <button class="active" onclick="showTab('priorities')">Today's Priorities</button>
+    <button onclick="showTab('portfolio')">Full Portfolio</button>
+  </div>
+</div>
+
+<div class="container">
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <div>Analyzing your ad accounts...</div>
+  </div>
+
+  <div id="content" style="display:none;">
+    <!-- Summary Cards -->
+    <div class="summary-row" id="summaryRow"></div>
+
+    <!-- Priorities Tab -->
+    <div id="tab-priorities">
+      <div class="section-header">
+        Today's Action Items <span class="section-count" id="priorityCount">0</span>
+      </div>
+      <div id="priorityList"></div>
+    </div>
+
+    <!-- Portfolio Tab -->
+    <div id="tab-portfolio" style="display:none;">
+      <div class="section-header">
+        All Accounts <span class="section-count" id="portfolioCount">0</span>
+      </div>
+      <table class="remaining-table" id="portfolioTable">
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th onclick="sortPortfolio('name')">Account</th>
+            <th>Platform</th>
+            <th>Type</th>
+            <th onclick="sortPortfolio('cost')">MTD Spend</th>
+            <th onclick="sortPortfolio('budget')">Budget</th>
+            <th onclick="sortPortfolio('roas')">ROAS</th>
+            <th onclick="sortPortfolio('conversions')">Conv.</th>
+            <th onclick="sortPortfolio('score')">Priority</th>
+          </tr>
+        </thead>
+        <tbody id="portfolioBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+let DATA = null;
+let portfolioSortCol = 'score';
+let portfolioSortDir = 'desc';
+
+// ── Data Loading ────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const resp = await fetch('data/daily-brief.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    DATA = await resp.json();
+    render();
+  } catch (err) {
+    document.getElementById('loading').innerHTML =
+      `<div style="color:var(--red)">Failed to load data: ${err.message}</div>`;
+  }
+}
+
+// ── Rendering ───────────────────────────────────────────────────────────
+function render() {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+
+  const s = DATA.portfolio_summary;
+  const d = DATA.analysis_date;
+  document.getElementById('subtitle').textContent =
+    `${formatDate(d)} · Day ${s.day_of_month}/${s.days_in_month} (${(s.pct_month_elapsed*100).toFixed(0)}% of month)`;
+
+  renderSummary(s);
+  renderPriorities(DATA.priorities);
+  renderPortfolio([...DATA.priorities, ...DATA.remaining]);
+}
+
+function renderSummary(s) {
+  const projected = s.total_mtd_spend / s.pct_month_elapsed;
+  const pacingPct = (projected / s.total_monthly_budget * 100).toFixed(0);
+  const pacingClass = pacingPct > 110 ? 'val-red' : pacingPct < 80 ? 'val-yellow' : 'val-green';
+
+  document.getElementById('summaryRow').innerHTML = `
+    <div class="summary-card">
+      <div class="label">MTD Spend</div>
+      <div class="value">${fmtMoney(s.total_mtd_spend)}</div>
+      <div class="sub">of ${fmtMoney(s.total_monthly_budget)} budget</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">MTD Revenue</div>
+      <div class="value val-green">${fmtMoney(s.total_mtd_revenue)}</div>
+      <div class="sub">${s.total_accounts_analyzed} accounts active</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Portfolio ROAS</div>
+      <div class="value ${s.overall_roas >= 3 ? 'val-green' : s.overall_roas >= 2 ? 'val-yellow' : 'val-red'}">${s.overall_roas.toFixed(2)}x</div>
+      <div class="sub">${s.accounts_with_strong_roas} strong / ${s.accounts_below_roas_target} below target</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Pacing</div>
+      <div class="value ${pacingClass}">${pacingPct}%</div>
+      <div class="sub">Projected: ${fmtMoney(projected)}</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Ecommerce</div>
+      <div class="value val-blue">${s.ecommerce_accounts}</div>
+      <div class="sub">${s.accounts_with_strong_roas} at 4x+ ROAS</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Lead Gen</div>
+      <div class="value val-blue">${s.lead_gen_accounts}</div>
+      <div class="sub">accounts tracked</div>
+    </div>
+  `;
+}
+
+function renderPriorities(priorities) {
+  document.getElementById('priorityCount').textContent = priorities.length;
+  const container = document.getElementById('priorityList');
+
+  container.innerHTML = priorities.map((p, i) => {
+    const topIssue = p.issues[0] || { headline: 'Monitoring', detail: '' };
+    const issueType = topIssue.type || '';
+    const hClass = getHeadlineClass(issueType);
+
+    return `
+    <div class="priority-card" id="card-${i}">
+      <div class="card-header" onclick="toggleCard(${i})">
+        <div class="card-left">
+          <div class="card-rank">
+            #${i + 1}
+            <span style="font-weight:400;color:var(--text-muted)">· Score: ${p.priority_score}</span>
+          </div>
+          <div class="card-title">${p.client_name}</div>
+          <div class="card-headline ${hClass}">${topIssue.headline}</div>
+          <div class="card-metrics">
+            <div class="card-metric">
+              <span class="metric-val">${fmtMoney(p.current.cost)}</span>
+              <span class="metric-label">MTD Spend</span>
+            </div>
+            ${p.client_type === 'ecommerce' ? `
+            <div class="card-metric">
+              <span class="metric-val">${fmtMoney(p.current.revenue)}</span>
+              <span class="metric-label">Revenue</span>
+            </div>
+            <div class="card-metric">
+              <span class="metric-val ${p.current.roas >= 3 ? 'val-green' : p.current.roas >= 2 ? 'val-yellow' : 'val-red'}">${p.current.roas.toFixed(2)}x</span>
+              <span class="metric-label">ROAS</span>
+            </div>` : `
+            <div class="card-metric">
+              <span class="metric-val">${p.current.conversions}</span>
+              <span class="metric-label">Leads</span>
+            </div>
+            <div class="card-metric">
+              <span class="metric-val">${p.current.cpl ? '$' + p.current.cpl.toFixed(0) : 'N/A'}</span>
+              <span class="metric-label">CPL</span>
+            </div>`}
+            <div class="card-metric">
+              <span class="metric-val">${fmtMoney(p.monthly_budget)}</span>
+              <span class="metric-label">Budget</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-right">
+          <span class="badge badge-${p.platform}">${p.platform_display}</span>
+          <span class="badge badge-${p.client_type}">${p.client_type === 'ecommerce' ? 'Ecom' : 'Lead Gen'}</span>
+          <div class="expand-icon">▼</div>
+        </div>
+      </div>
+      <div class="card-detail">
+        ${renderDetail(p)}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderDetail(p) {
+  let html = '';
+
+  // Actions
+  if (p.actions && p.actions.length) {
+    html += `<div class="detail-section"><h4>Recommended Actions</h4>`;
+    p.actions.forEach((a, i) => {
+      html += `<div class="action-item"><strong>Action ${i+1}:</strong> ${a}</div>`;
+    });
+    html += `</div>`;
+  }
+
+  // Issues detail
+  if (p.issues && p.issues.length) {
+    html += `<div class="detail-section"><h4>Analysis Details</h4>`;
+    p.issues.forEach(issue => {
+      html += `<div class="action-item" style="border-left-color:var(--text-muted)">${issue.detail}</div>`;
+    });
+    html += `</div>`;
+  }
+
+  // Period comparison
+  html += `<div class="detail-section"><h4>Period Comparison</h4><div class="comparison-grid">`;
+  html += renderComparison('This Month (MTD)', p.current, p.client_type);
+  if (p.prior_month) html += renderComparison('Prior Month (Full)', p.prior_month, p.client_type);
+  if (p.prior_year) html += renderComparison('Same Month Last Year', p.prior_year, p.client_type);
+  html += `</div></div>`;
+
+  // Campaign breakdown
+  if (p.campaigns && p.campaigns.length) {
+    html += `<div class="detail-section"><h4>Campaign Breakdown</h4>`;
+    html += `<div style="overflow-x:auto"><table class="campaign-table"><thead><tr>
+      <th>Campaign</th><th>Status</th><th>Spend</th>
+      ${p.client_type === 'ecommerce' ? '<th>Revenue</th><th>ROAS</th>' : '<th>Conv.</th><th>CPL</th>'}
+      <th>Clicks</th><th>CPC</th><th>Conv Rate</th>
+    </tr></thead><tbody>`;
+
+    // Sort campaigns by cost desc
+    const sortedCamps = [...p.campaigns].sort((a, b) => (b.cost || 0) - (a.cost || 0));
+    const findings = p.campaign_findings || [];
+
+    sortedCamps.forEach(c => {
+      const finding = findings.find(f => f.campaign === c.campaign_name);
+      const flagClass = finding ? `camp-flag-${finding.severity}` : '';
+      const roas = c.cost > 0 ? (c.revenue / c.cost) : 0;
+      const cpl = c.conversions > 0 ? (c.cost / c.conversions) : null;
+
+      html += `<tr>
+        <td>${finding ? `<span class="camp-flag ${flagClass}"></span>` : ''}${c.campaign_name}</td>
+        <td class="camp-status">${c.campaign_status}</td>
+        <td>${fmtMoney(c.cost)}</td>
+        ${p.client_type === 'ecommerce'
+          ? `<td>${fmtMoney(c.revenue)}</td><td style="color:${roas >= 3 ? 'var(--green)' : roas >= 2 ? 'var(--yellow)' : 'var(--red)'}">${roas.toFixed(2)}x</td>`
+          : `<td>${c.conversions}</td><td>${cpl ? '$' + cpl.toFixed(0) : '—'}</td>`}
+        <td>${c.clicks.toLocaleString()}</td>
+        <td>$${(c.cpc || 0).toFixed(2)}</td>
+        <td>${typeof c.conversion_rate === 'number' ? c.conversion_rate.toFixed(1) + '%' : '—'}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+  }
+
+  // Campaign findings callouts
+  if (p.campaign_findings && p.campaign_findings.length) {
+    html += `<div class="detail-section"><h4>Campaign-Level Flags</h4>`;
+    p.campaign_findings.forEach(f => {
+      const color = f.severity === 'high' ? 'var(--red)' : f.severity === 'opportunity' ? 'var(--green)' : 'var(--yellow)';
+      html += `<div class="action-item" style="border-left-color:${color}">
+        <strong>${f.campaign}:</strong> ${f.detail}
+      </div>`;
+    });
+    html += `</div>`;
+  }
+
+  return html;
+}
+
+function renderComparison(label, data, clientType) {
+  const rows = [
+    ['Spend', fmtMoney(data.cost)],
+    clientType === 'ecommerce' ? ['Revenue', fmtMoney(data.revenue)] : null,
+    clientType === 'ecommerce' ? ['ROAS', (data.roas || 0).toFixed(2) + 'x'] : null,
+    ['Conversions', (data.conversions || 0).toFixed(0)],
+  ].filter(Boolean);
+
+  return `<div class="comparison-card">
+    <div class="period">${label}</div>
+    ${rows.map(r => `<div class="metric-row"><span>${r[0]}</span><span style="font-weight:600">${r[1]}</span></div>`).join('')}
+  </div>`;
+}
+
+function renderPortfolio(all) {
+  document.getElementById('portfolioCount').textContent = all.length;
+
+  all.sort((a, b) => {
+    let va, vb;
+    switch (portfolioSortCol) {
+      case 'name': va = (a.client_name||'').toLowerCase(); vb = (b.client_name||'').toLowerCase();
+        return portfolioSortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+      case 'cost': va = a.current?.cost||0; vb = b.current?.cost||0; break;
+      case 'budget': va = a.monthly_budget||0; vb = b.monthly_budget||0; break;
+      case 'roas': va = a.current?.roas||0; vb = b.current?.roas||0; break;
+      case 'conversions': va = a.current?.conversions||0; vb = b.current?.conversions||0; break;
+      case 'score': va = a.priority_score||0; vb = b.priority_score||0; break;
+      default: va = a.priority_score||0; vb = b.priority_score||0;
+    }
+    return portfolioSortDir === 'asc' ? va - vb : vb - va;
+  });
+
+  document.getElementById('portfolioBody').innerHTML = all.map(a => {
+    const cur = a.current || {};
+    const score = a.priority_score || 0;
+    const hasIssues = (a.issues || []).length > 0;
+    const topIssue = hasIssues ? a.issues[0].type : '';
+    const healthClass = score > 50 ? 'health-red' : score > 20 ? 'health-yellow' : 'health-green';
+    const platformDisplay = (a.platform_display || a.platform || '').replace('_', ' ');
+
+    return `<tr>
+      <td><span class="health-dot ${healthClass}" title="Score: ${score}"></span></td>
+      <td style="font-weight:500">${a.client_name}</td>
+      <td><span class="badge badge-${a.platform}" style="font-size:10px">${platformDisplay}</span></td>
+      <td><span class="badge badge-${a.client_type}" style="font-size:10px">${a.client_type === 'ecommerce' ? 'Ecom' : 'Lead'}</span></td>
+      <td>${fmtMoney(cur.cost || 0)}</td>
+      <td>${fmtMoney(a.monthly_budget || 0)}</td>
+      <td style="color:${(cur.roas||0) >= 3 ? 'var(--green)' : (cur.roas||0) >= 2 ? 'var(--yellow)' : (cur.roas||0) > 0 ? 'var(--red)' : 'var(--text-muted)'}">${(cur.roas||0) > 0 ? (cur.roas).toFixed(2) + 'x' : '—'}</td>
+      <td>${(cur.conversions || 0).toFixed(0)}</td>
+      <td style="color:${score > 50 ? 'var(--red)' : score > 20 ? 'var(--yellow)' : 'var(--text-muted)'}">${score}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ── Utilities ────────────────────────────────────────────────────────────
+function fmtMoney(n) {
+  if (n == null) return '—';
+  if (n >= 1000000) return '$' + (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000) return '$' + (n/1000).toFixed(1) + 'K';
+  return '$' + n.toFixed(0);
+}
+
+function formatDate(d) {
+  const parts = d.split('-');
+  const months = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${months[parseInt(parts[1])]} ${parseInt(parts[2])}, ${parts[0]}`;
+}
+
+function getHeadlineClass(type) {
+  if (['low_roas','zero_conversions','zero_leads','high_cpl'].includes(type)) return 'headline-red';
+  if (['roas_drop_mom','roas_drop_yoy','cpl_spike','lead_volume_drop'].includes(type)) return 'headline-orange';
+  if (['overpacing'].includes(type)) return 'headline-yellow';
+  if (['scale_opportunity'].includes(type)) return 'headline-green';
+  if (['underpacing'].includes(type)) return 'headline-blue';
+  return 'headline-yellow';
+}
+
+function toggleCard(i) {
+  document.getElementById(`card-${i}`).classList.toggle('open');
+}
+
+function showTab(tab) {
+  document.querySelectorAll('.tab-bar button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-priorities').style.display = tab === 'priorities' ? '' : 'none';
+  document.getElementById('tab-portfolio').style.display = tab === 'portfolio' ? '' : 'none';
+}
+
+function sortPortfolio(col) {
+  if (portfolioSortCol === col) {
+    portfolioSortDir = portfolioSortDir === 'desc' ? 'asc' : 'desc';
+  } else {
+    portfolioSortCol = col;
+    portfolioSortDir = 'desc';
+  }
+  renderPortfolio([...DATA.priorities, ...DATA.remaining]);
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>

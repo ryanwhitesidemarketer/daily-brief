@@ -1,0 +1,4578 @@
+{
+  "generated_at": "2026-03-13T10:20:51",
+  "analysis_date": "2026-03-13",
+  "current_month": "2026-03",
+  "prior_month": "2026-02",
+  "prior_year_month": "2025-03",
+  "portfolio_summary": {
+    "total_accounts_analyzed": 58,
+    "total_mtd_spend": 391928.08,
+    "total_mtd_revenue": 1090706.27,
+    "total_monthly_budget": 562072,
+    "overall_roas": 2.78,
+    "ecommerce_accounts": 37,
+    "lead_gen_accounts": 21,
+    "accounts_below_roas_target": 13,
+    "accounts_with_strong_roas": 12,
+    "pct_month_elapsed": 0.419,
+    "day_of_month": 13,
+    "days_in_month": 31
+  },
+  "priorities": [
+    {
+      "client_name": "Williams Flowers Google Ads",
+      "account_name": "Williams Flowers",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "williams-flowers",
+      "monthly_budget": 80000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 24991.27,
+        "impressions": 99663,
+        "clicks": 5575,
+        "conversions": 621.63,
+        "revenue": 74053.41,
+        "roas": 2.96,
+        "cpc": 4.48,
+        "ctr": 5.59,
+        "conversion_rate": 11.15,
+        "cpl": 40.2
+      },
+      "prior_month": null,
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.96x on $24,991 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $59,595 of $80,000 budget",
+          "detail": "Only 74% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Review if campaigns are limited by budget, bid, or targeting constraints"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Brand (TWM)",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 7.5x ROAS on $240 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 240.37,
+            "revenue": 1799.31,
+            "roas": 7.49,
+            "conversions": 32.5
+          }
+        },
+        {
+          "campaign": "Remarketing (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $160 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 160.02,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 2.0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Cities (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 7106.73,
+          "impressions": 10595,
+          "clicks": 1165,
+          "conversions": 175.5,
+          "revenue": 22292.4,
+          "cpc": 6.1,
+          "ctr": 11.0,
+          "conversion_rate": 15.06
+        },
+        {
+          "campaign_name": "Florist + Flower Delivery (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 677.35,
+          "impressions": 7158,
+          "clicks": 417,
+          "conversions": 21.5,
+          "revenue": 1545.49,
+          "cpc": 1.62,
+          "ctr": 5.83,
+          "conversion_rate": 5.16
+        },
+        {
+          "campaign_name": "Brand (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 240.37,
+          "impressions": 555,
+          "clicks": 164,
+          "conversions": 32.5,
+          "revenue": 1799.31,
+          "cpc": 1.47,
+          "ctr": 29.55,
+          "conversion_rate": 19.81
+        },
+        {
+          "campaign_name": "Remarketing (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 160.02,
+          "impressions": 12321,
+          "clicks": 65,
+          "conversions": 2.0,
+          "revenue": 0.0,
+          "cpc": 2.46,
+          "ctr": 0.53,
+          "conversion_rate": 3.08
+        },
+        {
+          "campaign_name": "Neighborhoods (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 5571.79,
+          "impressions": 13818,
+          "clicks": 1104,
+          "conversions": 106.5,
+          "revenue": 13472.5,
+          "cpc": 5.05,
+          "ctr": 7.99,
+          "conversion_rate": 9.65
+        },
+        {
+          "campaign_name": "PMax (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 1781.35,
+          "impressions": 36754,
+          "clicks": 937,
+          "conversions": 44.13,
+          "revenue": 4356.76,
+          "cpc": 1.9,
+          "ctr": 2.55,
+          "conversion_rate": 2.8
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 9453.66,
+          "impressions": 18462,
+          "clicks": 1723,
+          "conversions": 239.5,
+          "revenue": 30586.95,
+          "cpc": 5.49,
+          "ctr": 9.33,
+          "conversion_rate": 13.9
+        }
+      ],
+      "priority_score": 190.0
+    },
+    {
+      "client_name": "Williams Flowers (Portland) Google Ads",
+      "account_name": "Williams Flowers",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "williams-flowers",
+      "monthly_budget": 40000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 24991.27,
+        "impressions": 99663,
+        "clicks": 5575,
+        "conversions": 621.63,
+        "revenue": 74053.41,
+        "roas": 2.96,
+        "cpc": 4.48,
+        "ctr": 5.59,
+        "conversion_rate": 11.15,
+        "cpl": 40.2
+      },
+      "prior_month": null,
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.96x on $24,991 spend. Target is 3.0x+."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $19,595",
+          "detail": "Projected: $59,595 vs. budget $40,000 (149%)."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Reduce daily budgets or bids to slow spend rate for remainder of month"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Brand (TWM)",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 7.5x ROAS on $240 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 240.37,
+            "revenue": 1799.31,
+            "roas": 7.49,
+            "conversions": 32.5
+          }
+        },
+        {
+          "campaign": "Remarketing (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $160 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 160.02,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 2.0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Cities (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 7106.73,
+          "impressions": 10595,
+          "clicks": 1165,
+          "conversions": 175.5,
+          "revenue": 22292.4,
+          "cpc": 6.1,
+          "ctr": 11.0,
+          "conversion_rate": 15.06
+        },
+        {
+          "campaign_name": "Florist + Flower Delivery (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 677.35,
+          "impressions": 7158,
+          "clicks": 417,
+          "conversions": 21.5,
+          "revenue": 1545.49,
+          "cpc": 1.62,
+          "ctr": 5.83,
+          "conversion_rate": 5.16
+        },
+        {
+          "campaign_name": "Brand (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 240.37,
+          "impressions": 555,
+          "clicks": 164,
+          "conversions": 32.5,
+          "revenue": 1799.31,
+          "cpc": 1.47,
+          "ctr": 29.55,
+          "conversion_rate": 19.81
+        },
+        {
+          "campaign_name": "Remarketing (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 160.02,
+          "impressions": 12321,
+          "clicks": 65,
+          "conversions": 2.0,
+          "revenue": 0.0,
+          "cpc": 2.46,
+          "ctr": 0.53,
+          "conversion_rate": 3.08
+        },
+        {
+          "campaign_name": "Neighborhoods (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 5571.79,
+          "impressions": 13818,
+          "clicks": 1104,
+          "conversions": 106.5,
+          "revenue": 13472.5,
+          "cpc": 5.05,
+          "ctr": 7.99,
+          "conversion_rate": 9.65
+        },
+        {
+          "campaign_name": "PMax (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 1781.35,
+          "impressions": 36754,
+          "clicks": 937,
+          "conversions": 44.13,
+          "revenue": 4356.76,
+          "cpc": 1.9,
+          "ctr": 2.55,
+          "conversion_rate": 2.8
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 9453.66,
+          "impressions": 18462,
+          "clicks": 1723,
+          "conversions": 239.5,
+          "revenue": 30586.95,
+          "cpc": 5.49,
+          "ctr": 9.33,
+          "conversion_rate": 13.9
+        }
+      ],
+      "priority_score": 137.5
+    },
+    {
+      "client_name": "Ode A La Rose",
+      "account_name": "Ode a La Rose",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "ode-a-la-rose",
+      "monthly_budget": 15000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 183868.28,
+        "impressions": 821739,
+        "clicks": 30980,
+        "conversions": 3430.56,
+        "revenue": 547055.2,
+        "roas": 2.98,
+        "cpc": 5.94,
+        "ctr": 0.04,
+        "conversion_rate": 0.11,
+        "cpl": 53.6
+      },
+      "prior_month": {
+        "cost": 604330.43,
+        "conversions": 11988.22,
+        "revenue": 2026406.79,
+        "roas": 3.35
+      },
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.98x on $183,868 spend. Target is 3.0x+."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $423,455",
+          "detail": "Projected: $438,455 vs. budget $15,000 (2923%)."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Reduce daily budgets or bids to slow spend rate for remainder of month"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Brand_US",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 25.7x ROAS on $397 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 397.18,
+            "revenue": 10200.77,
+            "roas": 25.68,
+            "conversions": 62.75
+          }
+        },
+        {
+          "campaign": "Brand_NYC",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 26.4x ROAS on $1,592 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 1592.46,
+            "revenue": 42025.26,
+            "roas": 26.39,
+            "conversions": 261.68
+          }
+        },
+        {
+          "campaign": "NB_NYC_bmm",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 1.3x on $609 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 609.09,
+            "revenue": 821.15,
+            "roas": 1.35,
+            "conversions": 5.5
+          }
+        },
+        {
+          "campaign": "Brand_Chicago",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 25.2x ROAS on $299 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 298.6,
+            "revenue": 7523.17,
+            "roas": 25.19,
+            "conversions": 48.52
+          }
+        },
+        {
+          "campaign": "NB_Chicago_bmm",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 1.1x on $115 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 115.01,
+            "revenue": 123.0,
+            "roas": 1.07,
+            "conversions": 1.0
+          }
+        },
+        {
+          "campaign": "NB_US_SelectCities",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.4x on $1,503 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 1502.98,
+            "revenue": 540.25,
+            "roas": 0.36,
+            "conversions": 3.25
+          }
+        },
+        {
+          "campaign": "NB_US_Nationwide-Cities-2",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 1.2x on $394 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 394.16,
+            "revenue": 454.65,
+            "roas": 1.15,
+            "conversions": 3.0
+          }
+        },
+        {
+          "campaign": "Brand_US_PMax",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 19.7x ROAS on $1,492 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 1491.83,
+            "revenue": 29375.28,
+            "roas": 19.69,
+            "conversions": 191.59
+          }
+        },
+        {
+          "campaign": "NB_ATX_DSA",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.8x on $860 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 860.01,
+            "revenue": 723.0,
+            "roas": 0.84,
+            "conversions": 4.0
+          }
+        },
+        {
+          "campaign": "NB_US_Nationwide_PMax_Next-Day-(Max Conv)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 1.3x on $3,527 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 3527.46,
+            "revenue": 4654.13,
+            "roas": 1.32,
+            "conversions": 31.43
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Brand_US",
+          "campaign_status": "ENABLED",
+          "cost": 397.18,
+          "impressions": 774,
+          "clicks": 289,
+          "conversions": 62.75,
+          "revenue": 10200.77,
+          "cpc": 1.37,
+          "ctr": 0.3734,
+          "conversion_rate": 0.2171
+        },
+        {
+          "campaign_name": "NB_NYC_DSA",
+          "campaign_status": "ENABLED",
+          "cost": 1151.02,
+          "impressions": 5244,
+          "clicks": 276,
+          "conversions": 28.59,
+          "revenue": 4141.92,
+          "cpc": 4.17,
+          "ctr": 0.0526,
+          "conversion_rate": 0.1036
+        },
+        {
+          "campaign_name": "NB_Chicago_DSA",
+          "campaign_status": "ENABLED",
+          "cost": 182.26,
+          "impressions": 853,
+          "clicks": 48,
+          "conversions": 4.0,
+          "revenue": 608.0,
+          "cpc": 3.8,
+          "ctr": 0.0563,
+          "conversion_rate": 0.0833
+        },
+        {
+          "campaign_name": "Brand_NYC",
+          "campaign_status": "ENABLED",
+          "cost": 1592.46,
+          "impressions": 2881,
+          "clicks": 967,
+          "conversions": 261.68,
+          "revenue": 42025.26,
+          "cpc": 1.65,
+          "ctr": 0.3356,
+          "conversion_rate": 0.2706
+        },
+        {
+          "campaign_name": "NB_NYC_bmm",
+          "campaign_status": "ENABLED",
+          "cost": 609.09,
+          "impressions": 2513,
+          "clicks": 120,
+          "conversions": 5.5,
+          "revenue": 821.15,
+          "cpc": 5.08,
+          "ctr": 0.0478,
+          "conversion_rate": 0.0458
+        },
+        {
+          "campaign_name": "Brand_Chicago",
+          "campaign_status": "ENABLED",
+          "cost": 298.6,
+          "impressions": 676,
+          "clicks": 239,
+          "conversions": 48.52,
+          "revenue": 7523.17,
+          "cpc": 1.25,
+          "ctr": 0.3536,
+          "conversion_rate": 0.203
+        },
+        {
+          "campaign_name": "NB_Chicago_exm",
+          "campaign_status": "ENABLED",
+          "cost": 17436.69,
+          "impressions": 31988,
+          "clicks": 2266,
+          "conversions": 281.23,
+          "revenue": 45775.47,
+          "cpc": 7.69,
+          "ctr": 0.0708,
+          "conversion_rate": 0.1241
+        },
+        {
+          "campaign_name": "NB_Chicago_bmm",
+          "campaign_status": "ENABLED",
+          "cost": 115.01,
+          "impressions": 681,
+          "clicks": 28,
+          "conversions": 1.0,
+          "revenue": 123.0,
+          "cpc": 4.11,
+          "ctr": 0.0411,
+          "conversion_rate": 0.0357
+        },
+        {
+          "campaign_name": "NB_Chicago_phm",
+          "campaign_status": "ENABLED",
+          "cost": 103.02,
+          "impressions": 1002,
+          "clicks": 23,
+          "conversions": 1.0,
+          "revenue": 166.0,
+          "cpc": 4.48,
+          "ctr": 0.023,
+          "conversion_rate": 0.0435
+        },
+        {
+          "campaign_name": "NB_US-Chicago",
+          "campaign_status": "ENABLED",
+          "cost": 1338.08,
+          "impressions": 2243,
+          "clicks": 147,
+          "conversions": 20.58,
+          "revenue": 2964.83,
+          "cpc": 9.1,
+          "ctr": 0.0655,
+          "conversion_rate": 0.14
+        },
+        {
+          "campaign_name": "NB_US-NYC",
+          "campaign_status": "ENABLED",
+          "cost": 4567.66,
+          "impressions": 10334,
+          "clicks": 570,
+          "conversions": 79.76,
+          "revenue": 12983.07,
+          "cpc": 8.01,
+          "ctr": 0.0552,
+          "conversion_rate": 0.1399
+        },
+        {
+          "campaign_name": "NB_Chicago_Neighborhoods",
+          "campaign_status": "ENABLED",
+          "cost": 1285.06,
+          "impressions": 2099,
+          "clicks": 203,
+          "conversions": 19.13,
+          "revenue": 2562.18,
+          "cpc": 6.33,
+          "ctr": 0.0967,
+          "conversion_rate": 0.0942
+        },
+        {
+          "campaign_name": "NB_Intl-US",
+          "campaign_status": "ENABLED",
+          "cost": 2031.99,
+          "impressions": 2051,
+          "clicks": 254,
+          "conversions": 30.75,
+          "revenue": 5417.85,
+          "cpc": 8.0,
+          "ctr": 0.1238,
+          "conversion_rate": 0.1211
+        },
+        {
+          "campaign_name": "NB_NYC_Neighborhoods",
+          "campaign_status": "ENABLED",
+          "cost": 3988.55,
+          "impressions": 6524,
+          "clicks": 457,
+          "conversions": 61.0,
+          "revenue": 9248.95,
+          "cpc": 8.73,
+          "ctr": 0.07,
+          "conversion_rate": 0.1335
+        },
+        {
+          "campaign_name": "NB_Chicago_ZipCodes",
+          "campaign_status": "ENABLED",
+          "cost": 445.6,
+          "impressions": 332,
+          "clicks": 35,
+          "conversions": 8.0,
+          "revenue": 1153.6,
+          "cpc": 12.73,
+          "ctr": 0.1054,
+          "conversion_rate": 0.2286
+        },
+        {
+          "campaign_name": "NB_NYC_ZipCodes",
+          "campaign_status": "ENABLED",
+          "cost": 25.8,
+          "impressions": 41,
+          "clicks": 2,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 12.9,
+          "ctr": 0.0488,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "NB_NYC",
+          "campaign_status": "ENABLED",
+          "cost": 40762.39,
+          "impressions": 68605,
+          "clicks": 4787,
+          "conversions": 668.65,
+          "revenue": 109172.06,
+          "cpc": 8.52,
+          "ctr": 0.0698,
+          "conversion_rate": 0.1397
+        },
+        {
+          "campaign_name": "NB_US_Nationwide",
+          "campaign_status": "ENABLED",
+          "cost": 391.87,
+          "impressions": 1785,
+          "clicks": 93,
+          "conversions": 5.0,
+          "revenue": 664.8,
+          "cpc": 4.21,
+          "ctr": 0.0521,
+          "conversion_rate": 0.0538
+        },
+        {
+          "campaign_name": "NB_US_Nationwide_DSA",
+          "campaign_status": "ENABLED",
+          "cost": 230.14,
+          "impressions": 962,
+          "clicks": 53,
+          "conversions": 5.0,
+          "revenue": 684.65,
+          "cpc": 4.34,
+          "ctr": 0.0551,
+          "conversion_rate": 0.0943
+        },
+        {
+          "campaign_name": "NB_US_Nationwide-Cities",
+          "campaign_status": "ENABLED",
+          "cost": 16396.26,
+          "impressions": 40499,
+          "clicks": 3162,
+          "conversions": 228.5,
+          "revenue": 37335.17,
+          "cpc": 5.19,
+          "ctr": 0.0781,
+          "conversion_rate": 0.0723
+        },
+        {
+          "campaign_name": "NB_US_Nationwide-States",
+          "campaign_status": "ENABLED",
+          "cost": 5772.47,
+          "impressions": 19107,
+          "clicks": 1115,
+          "conversions": 83.7,
+          "revenue": 13475.73,
+          "cpc": 5.18,
+          "ctr": 0.0584,
+          "conversion_rate": 0.0751
+        },
+        {
+          "campaign_name": "NB_NYC_Boroughs",
+          "campaign_status": "ENABLED",
+          "cost": 19429.68,
+          "impressions": 35322,
+          "clicks": 2734,
+          "conversions": 358.63,
+          "revenue": 56177.06,
+          "cpc": 7.11,
+          "ctr": 0.0774,
+          "conversion_rate": 0.1312
+        },
+        {
+          "campaign_name": "NB_LA",
+          "campaign_status": "ENABLED",
+          "cost": 882.73,
+          "impressions": 2124,
+          "clicks": 121,
+          "conversions": 12.0,
+          "revenue": 2386.8,
+          "cpc": 7.3,
+          "ctr": 0.057,
+          "conversion_rate": 0.0992
+        },
+        {
+          "campaign_name": "NB_US-LA",
+          "campaign_status": "ENABLED",
+          "cost": 3398.96,
+          "impressions": 6869,
+          "clicks": 489,
+          "conversions": 56.48,
+          "revenue": 9321.91,
+          "cpc": 6.95,
+          "ctr": 0.0712,
+          "conversion_rate": 0.1155
+        },
+        {
+          "campaign_name": "NB_DC_DSA",
+          "campaign_status": "ENABLED",
+          "cost": 1070.92,
+          "impressions": 2372,
+          "clicks": 167,
+          "conversions": 11.17,
+          "revenue": 1666.5,
+          "cpc": 6.41,
+          "ctr": 0.0704,
+          "conversion_rate": 0.0669
+        },
+        {
+          "campaign_name": "NB_DC",
+          "campaign_status": "ENABLED",
+          "cost": 1004.37,
+          "impressions": 2618,
+          "clicks": 170,
+          "conversions": 13.5,
+          "revenue": 2030.6,
+          "cpc": 5.91,
+          "ctr": 0.0649,
+          "conversion_rate": 0.0794
+        },
+        {
+          "campaign_name": "NB_US_Subscription",
+          "campaign_status": "ENABLED",
+          "cost": 49.9,
+          "impressions": 207,
+          "clicks": 19,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 2.63,
+          "ctr": 0.0918,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "NB_US-NYC_Neighborhoods",
+          "campaign_status": "ENABLED",
+          "cost": 2168.84,
+          "impressions": 1987,
+          "clicks": 278,
+          "conversions": 41.67,
+          "revenue": 5678.63,
+          "cpc": 7.8,
+          "ctr": 0.1399,
+          "conversion_rate": 0.1499
+        },
+        {
+          "campaign_name": "NB_US-Chicago_Neighborhoods",
+          "campaign_status": "ENABLED",
+          "cost": 689.85,
+          "impressions": 814,
+          "clicks": 99,
+          "conversions": 11.5,
+          "revenue": 1596.15,
+          "cpc": 6.97,
+          "ctr": 0.1216,
+          "conversion_rate": 0.1162
+        },
+        {
+          "campaign_name": "NB_DC_Neighborhoods",
+          "campaign_status": "ENABLED",
+          "cost": 458.33,
+          "impressions": 739,
+          "clicks": 71,
+          "conversions": 5.0,
+          "revenue": 760.2,
+          "cpc": 6.46,
+          "ctr": 0.0961,
+          "conversion_rate": 0.0704
+        },
+        {
+          "campaign_name": "NB_US_SelectCities",
+          "campaign_status": "ENABLED",
+          "cost": 1502.98,
+          "impressions": 3301,
+          "clicks": 333,
+          "conversions": 3.25,
+          "revenue": 540.25,
+          "cpc": 4.51,
+          "ctr": 0.1009,
+          "conversion_rate": 0.98
+        },
+        {
+          "campaign_name": "NB_US-ATX",
+          "campaign_status": "ENABLED",
+          "cost": 6057.23,
+          "impressions": 8696,
+          "clicks": 687,
+          "conversions": 94.17,
+          "revenue": 14070.85,
+          "cpc": 8.82,
+          "ctr": 0.079,
+          "conversion_rate": 0.1371
+        },
+        {
+          "campaign_name": "NB_ATX",
+          "campaign_status": "ENABLED",
+          "cost": 1528.94,
+          "impressions": 3860,
+          "clicks": 199,
+          "conversions": 22.0,
+          "revenue": 3510.9,
+          "cpc": 7.68,
+          "ctr": 0.0516,
+          "conversion_rate": 0.1106
+        },
+        {
+          "campaign_name": "PMax: NB_US_SmartShopping-Nationwide",
+          "campaign_status": "ENABLED",
+          "cost": 18673.62,
+          "impressions": 216852,
+          "clicks": 4646,
+          "conversions": 312.48,
+          "revenue": 48435.85,
+          "cpc": 4.02,
+          "ctr": 0.0214,
+          "conversion_rate": 0.0554
+        },
+        {
+          "campaign_name": "NB_US-MIA",
+          "campaign_status": "ENABLED",
+          "cost": 8047.3,
+          "impressions": 10413,
+          "clicks": 822,
+          "conversions": 103.5,
+          "revenue": 18541.86,
+          "cpc": 9.79,
+          "ctr": 0.0789,
+          "conversion_rate": 0.1259
+        },
+        {
+          "campaign_name": "NB_US_Nationwide-Cities-SmallRepeats",
+          "campaign_status": "ENABLED",
+          "cost": 909.41,
+          "impressions": 1653,
+          "clicks": 189,
+          "conversions": 9.0,
+          "revenue": 1553.45,
+          "cpc": 4.81,
+          "ctr": 0.1143,
+          "conversion_rate": 0.0476
+        },
+        {
+          "campaign_name": "NB_US_Nationwide-Cities-2",
+          "campaign_status": "ENABLED",
+          "cost": 394.16,
+          "impressions": 2037,
+          "clicks": 82,
+          "conversions": 3.0,
+          "revenue": 454.65,
+          "cpc": 4.81,
+          "ctr": 0.0403,
+          "conversion_rate": 0.0366
+        },
+        {
+          "campaign_name": "Brand_ATX",
+          "campaign_status": "ENABLED",
+          "cost": 69.53,
+          "impressions": 141,
+          "clicks": 45,
+          "conversions": 9.0,
+          "revenue": 1207.4,
+          "cpc": 1.55,
+          "ctr": 0.3191,
+          "conversion_rate": 0.2
+        },
+        {
+          "campaign_name": "Brand_LA",
+          "campaign_status": "ENABLED",
+          "cost": 98.86,
+          "impressions": 212,
+          "clicks": 55,
+          "conversions": 7.5,
+          "revenue": 1353.5,
+          "cpc": 1.8,
+          "ctr": 0.2594,
+          "conversion_rate": 0.1364
+        },
+        {
+          "campaign_name": "Brand_US_PMax",
+          "campaign_status": "ENABLED",
+          "cost": 1491.83,
+          "impressions": 16789,
+          "clicks": 934,
+          "conversions": 191.59,
+          "revenue": 29375.28,
+          "cpc": 1.6,
+          "ctr": 0.0556,
+          "conversion_rate": 0.2051
+        },
+        {
+          "campaign_name": "Brand_MIA",
+          "campaign_status": "ENABLED",
+          "cost": 160.9,
+          "impressions": 220,
+          "clicks": 78,
+          "conversions": 18.5,
+          "revenue": 3088.9,
+          "cpc": 2.06,
+          "ctr": 0.3545,
+          "conversion_rate": 0.2372
+        },
+        {
+          "campaign_name": "NB_ATX_DSA",
+          "campaign_status": "ENABLED",
+          "cost": 860.01,
+          "impressions": 2445,
+          "clicks": 143,
+          "conversions": 4.0,
+          "revenue": 723.0,
+          "cpc": 6.01,
+          "ctr": 0.0585,
+          "conversion_rate": 0.028
+        },
+        {
+          "campaign_name": "NB_Chicago_PMax",
+          "campaign_status": "ENABLED",
+          "cost": 491.75,
+          "impressions": 24727,
+          "clicks": 183,
+          "conversions": 6.37,
+          "revenue": 1108.9,
+          "cpc": 2.69,
+          "ctr": 0.74,
+          "conversion_rate": 0.25
+        },
+        {
+          "campaign_name": "NB_WDC_PMax",
+          "campaign_status": "ENABLED",
+          "cost": 343.1,
+          "impressions": 13616,
+          "clicks": 90,
+          "conversions": 5.48,
+          "revenue": 701.9,
+          "cpc": 3.81,
+          "ctr": 0.66,
+          "conversion_rate": 0.016
+        },
+        {
+          "campaign_name": "NB_LA_PMax",
+          "campaign_status": "ENABLED",
+          "cost": 4186.52,
+          "impressions": 23591,
+          "clicks": 775,
+          "conversions": 63.0,
+          "revenue": 10354.8,
+          "cpc": 5.4,
+          "ctr": 0.0329,
+          "conversion_rate": 0.0429
+        },
+        {
+          "campaign_name": "NB_MIA_PMax",
+          "campaign_status": "ENABLED",
+          "cost": 3326.48,
+          "impressions": 15028,
+          "clicks": 468,
+          "conversions": 47.0,
+          "revenue": 8346.5,
+          "cpc": 7.11,
+          "ctr": 0.0311,
+          "conversion_rate": 0.071
+        },
+        {
+          "campaign_name": "NB_US_Nationwide_PMax_Next-Day-(Max Conv)",
+          "campaign_status": "ENABLED",
+          "cost": 3527.46,
+          "impressions": 175178,
+          "clicks": 1280,
+          "conversions": 31.43,
+          "revenue": 4654.13,
+          "cpc": 2.76,
+          "ctr": 0.73,
+          "conversion_rate": 0.04
+        },
+        {
+          "campaign_name": "NB_US_Nationwide_PMax_Product-Focused",
+          "campaign_status": "ENABLED",
+          "cost": 693.22,
+          "impressions": 42765,
+          "clicks": 260,
+          "conversions": 16.0,
+          "revenue": 2442.4,
+          "cpc": 2.67,
+          "ctr": 0.61,
+          "conversion_rate": 0.72
+        },
+        {
+          "campaign_name": "NB_NYC_Neighborhoods - bid level",
+          "campaign_status": "ENABLED",
+          "cost": 3230.2,
+          "impressions": 5969,
+          "clicks": 429,
+          "conversions": 69.0,
+          "revenue": 9925.2,
+          "cpc": 7.53,
+          "ctr": 0.0719,
+          "conversion_rate": 0.1608
+        }
+      ],
+      "priority_score": 132.0
+    },
+    {
+      "client_name": "LocksetsOnly - Google Ads",
+      "account_name": "Locksets Only",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "locksets-only",
+      "monthly_budget": 2400,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 740.62,
+        "impressions": 113578,
+        "clicks": 1144,
+        "conversions": 19.0,
+        "revenue": 1561.25,
+        "roas": 2.11,
+        "cpc": 0.65,
+        "ctr": 0.01,
+        "conversion_rate": 0.02,
+        "cpl": 38.98
+      },
+      "prior_month": {
+        "cost": 2467.79,
+        "conversions": 107.99,
+        "revenue": 10123.6,
+        "roas": 4.1
+      },
+      "prior_year": {
+        "cost": 2401.47,
+        "conversions": 178.0,
+        "revenue": 21175.98,
+        "roas": 8.82
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.11x on $741 spend. Target is 3.0x+."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 49% vs. last month",
+          "detail": "ROAS went from 4.10x \u2192 2.11x month-over-month."
+        },
+        {
+          "type": "roas_drop_yoy",
+          "headline": "ROAS down 76% vs. same month last year",
+          "detail": "ROAS was 8.82x in 2025-03, now 2.11x."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $1,766 of $2,400 budget",
+          "detail": "Only 74% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Compare campaign mix to last month \u2014 identify which campaigns lost efficiency",
+        "Check for market shifts, competitor activity, or landing page issues vs. last year",
+        "Review if campaigns are limited by budget, bid, or targeting constraints"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Display Campaign",
+          "issue": "zero_conversions",
+          "severity": "high",
+          "detail": "$69 spent with zero conversions this month",
+          "metrics": {
+            "cost": 69.36,
+            "clicks": 347,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Search - Brand",
+          "campaign_status": "ENABLED",
+          "cost": 68.63,
+          "impressions": 79,
+          "clicks": 19,
+          "conversions": 1.0,
+          "revenue": 156.17,
+          "cpc": 3.61,
+          "ctr": 0.2405,
+          "conversion_rate": 0.0526
+        },
+        {
+          "campaign_name": "Display Campaign",
+          "campaign_status": "ENABLED",
+          "cost": 69.36,
+          "impressions": 55014,
+          "clicks": 347,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.2,
+          "ctr": 0.63,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "PMax: Shopping Campaign",
+          "campaign_status": "ENABLED",
+          "cost": 602.63,
+          "impressions": 58485,
+          "clicks": 778,
+          "conversions": 18.0,
+          "revenue": 1405.08,
+          "cpc": 0.77,
+          "ctr": 0.0133,
+          "conversion_rate": 0.0225
+        }
+      ],
+      "priority_score": 97.4
+    },
+    {
+      "client_name": "Bedford Village Bing Ads",
+      "account_name": "Bedford Village",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "slug": "bedford-village",
+      "monthly_budget": 750,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 518.16,
+        "impressions": 2401,
+        "clicks": 96,
+        "conversions": 3.0,
+        "revenue": 544.96,
+        "roas": 1.05,
+        "cpc": 5.4,
+        "ctr": 0.04,
+        "conversion_rate": 0.03,
+        "cpl": 172.72
+      },
+      "prior_month": {
+        "cost": 1771.05,
+        "conversions": 19.0,
+        "revenue": 3927.63,
+        "roas": 2.22
+      },
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 1.05x on $518 spend. Target is 3.0x+."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 53% vs. last month",
+          "detail": "ROAS went from 2.22x \u2192 1.05x month-over-month."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $486",
+          "detail": "Projected: $1,236 vs. budget $750 (165%)."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Compare campaign mix to last month \u2014 identify which campaigns lost efficiency",
+        "Reduce daily budgets or bids to slow spend rate for remainder of month"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Cities_CT (TWM)",
+          "issue": "zero_conversions",
+          "severity": "high",
+          "detail": "$84 spent with zero conversions this month",
+          "metrics": {
+            "cost": 83.96,
+            "clicks": 24,
+            "conversions": 0
+          }
+        },
+        {
+          "campaign": "Cities_USA (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 1.0x on $389 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 389.36,
+            "revenue": 395.36,
+            "roas": 1.02,
+            "conversions": 2.0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Bedford NY (TWM)",
+          "campaign_status": "Active",
+          "cost": 5.5,
+          "impressions": 176,
+          "clicks": 2,
+          "conversions": 1.0,
+          "revenue": 149.6,
+          "cpc": 2.75,
+          "ctr": 0.0114,
+          "conversion_rate": 0.5
+        },
+        {
+          "campaign_name": "Brand (TWM)",
+          "campaign_status": "Active",
+          "cost": 39.34,
+          "impressions": 84,
+          "clicks": 9,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 4.37,
+          "ctr": 0.1071,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Cities_CT (TWM)",
+          "campaign_status": "Active",
+          "cost": 83.96,
+          "impressions": 725,
+          "clicks": 24,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 3.5,
+          "ctr": 0.0331,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "Active",
+          "cost": 389.36,
+          "impressions": 1416,
+          "clicks": 61,
+          "conversions": 2.0,
+          "revenue": 395.36,
+          "cpc": 6.38,
+          "ctr": 0.0431,
+          "conversion_rate": 0.0328
+        }
+      ],
+      "priority_score": 90.8
+    },
+    {
+      "client_name": "Bedford Village Florist",
+      "account_name": "Bedford Village",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "bedford-village",
+      "monthly_budget": 10750,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 4658.92,
+        "impressions": 25741,
+        "clicks": 772,
+        "conversions": 53.0,
+        "revenue": 10305.15,
+        "roas": 2.21,
+        "cpc": 6.03,
+        "ctr": 0.03,
+        "conversion_rate": 0.07,
+        "cpl": 87.9
+      },
+      "prior_month": {
+        "cost": 16702.49,
+        "conversions": 187.0,
+        "revenue": 41689.88,
+        "roas": 2.5
+      },
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.21x on $4,659 spend. Target is 3.0x+."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Flowers (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $147 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 146.79,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 0.0
+          }
+        },
+        {
+          "campaign": "Bedford NY (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.7x on $586 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 586.0,
+            "revenue": 400.0,
+            "roas": 0.68,
+            "conversions": 2.0
+          }
+        },
+        {
+          "campaign": "Cities_CT (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $197 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 197.31,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 0.0
+          }
+        },
+        {
+          "campaign": "Dynamic Remarketing (TWM)",
+          "issue": "zero_conversions",
+          "severity": "high",
+          "detail": "$55 spent with zero conversions this month",
+          "metrics": {
+            "cost": 54.54,
+            "clicks": 61,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "PMax (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 1063.39,
+          "impressions": 5589,
+          "clicks": 249,
+          "conversions": 17.33,
+          "revenue": 3293.98,
+          "cpc": 4.27,
+          "ctr": 0.0446,
+          "conversion_rate": 0.0574
+        },
+        {
+          "campaign_name": "Brand (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 2.86,
+          "impressions": 23,
+          "clicks": 4,
+          "conversions": 1.0,
+          "revenue": 200.0,
+          "cpc": 0.71,
+          "ctr": 0.1739,
+          "conversion_rate": 0.25
+        },
+        {
+          "campaign_name": "Flowers (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 146.79,
+          "impressions": 875,
+          "clicks": 38,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 3.86,
+          "ctr": 0.0434,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Bedford NY (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 586.0,
+          "impressions": 364,
+          "clicks": 56,
+          "conversions": 2.0,
+          "revenue": 400.0,
+          "cpc": 10.46,
+          "ctr": 0.1538,
+          "conversion_rate": 0.0357
+        },
+        {
+          "campaign_name": "Cities_NY (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 542.98,
+          "impressions": 631,
+          "clicks": 70,
+          "conversions": 5.0,
+          "revenue": 1264.9,
+          "cpc": 7.76,
+          "ctr": 0.1109,
+          "conversion_rate": 0.0714
+        },
+        {
+          "campaign_name": "Cities_CT (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 197.31,
+          "impressions": 516,
+          "clicks": 29,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 6.8,
+          "ctr": 0.0562,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 2065.05,
+          "impressions": 1902,
+          "clicks": 265,
+          "conversions": 27.67,
+          "revenue": 5146.27,
+          "cpc": 7.79,
+          "ctr": 0.1393,
+          "conversion_rate": 0.1044
+        },
+        {
+          "campaign_name": "Dynamic Remarketing (TWM)",
+          "campaign_status": "ENABLED",
+          "cost": 54.54,
+          "impressions": 15841,
+          "clicks": 61,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.89,
+          "ctr": 0.39,
+          "conversion_rate": 0.0
+        }
+      ],
+      "priority_score": 88.9
+    },
+    {
+      "client_name": "Accel Conceptions (FB Ads) - Top States",
+      "account_name": "Accel Conceptions",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "slug": "accel-conceptions",
+      "monthly_budget": 7000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 3871.82,
+        "impressions": 469248,
+        "clicks": 5319,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.73,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "prior_month": {
+        "cost": 6560.08,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0.0
+      },
+      "prior_year": {
+        "cost": 0,
+        "conversions": 0,
+        "revenue": 0.0,
+        "roas": 0.0
+      },
+      "issues": [
+        {
+          "type": "zero_conversions",
+          "headline": "$3,872 spent with ZERO leads this month",
+          "detail": "No conversions tracked. Check conversion tracking, landing pages, and ad targeting."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $2,233",
+          "detail": "Projected: $9,233 vs. budget $7,000 (132%)."
+        }
+      ],
+      "actions": [
+        "Verify conversion tracking is firing. Check landing page load times and form functionality.",
+        "Reduce daily budgets or bids to slow spend rate for remainder of month"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Leads V3 - TWM",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$2,662 spent with zero leads this month",
+          "metrics": {
+            "cost": 2662.4,
+            "clicks": 2546,
+            "conversions": 0
+          }
+        },
+        {
+          "campaign": "Leads V3 - TWM",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$1,159 spent with zero leads this month",
+          "metrics": {
+            "cost": 1158.75,
+            "clicks": 2755,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 17.28,
+          "impressions": 475,
+          "clicks": 4,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 4.32,
+          "ctr": 0.8421,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.89,
+          "impressions": 27,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1.11,
+          "impressions": 33,
+          "clicks": 1,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.11,
+          "ctr": 0.0303,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 2.67,
+          "impressions": 34,
+          "clicks": 3,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.89,
+          "ctr": 0.0882,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 2662.4,
+          "impressions": 272452,
+          "clicks": 2546,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.05,
+          "ctr": 0.9345,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 24.69,
+          "impressions": 1123,
+          "clicks": 10,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 2.47,
+          "ctr": 0.8905,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 3.81,
+          "impressions": 101,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.03,
+          "impressions": 4,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1158.75,
+          "impressions": 194983,
+          "clicks": 2755,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.42,
+          "ctr": 0.0141,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.12,
+          "impressions": 6,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.02,
+          "impressions": 2,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.0,
+          "impressions": 2,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.01,
+          "impressions": 2,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.04,
+          "impressions": 4,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        }
+      ],
+      "priority_score": 80.0
+    },
+    {
+      "client_name": "Dave Fox (FB Ads)",
+      "account_name": "Dave Fox",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "slug": "dave-fox",
+      "monthly_budget": 400,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 580.94,
+        "impressions": 65124,
+        "clicks": 1965,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.3,
+        "ctr": 0.03,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "prior_month": {
+        "cost": 540.34,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0.0
+      },
+      "prior_year": {
+        "cost": 0,
+        "conversions": 0,
+        "revenue": 0.0,
+        "roas": 0.0
+      },
+      "issues": [
+        {
+          "type": "zero_conversions",
+          "headline": "$581 spent with ZERO leads this month",
+          "detail": "No conversions tracked. Check conversion tracking, landing pages, and ad targeting."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $985",
+          "detail": "Projected: $1,385 vs. budget $400 (346%)."
+        }
+      ],
+      "actions": [
+        "Verify conversion tracking is firing. Check landing page load times and form functionality.",
+        "Reduce daily budgets or bids to slow spend rate for remainder of month"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Dave Fox Jobs",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$140 spent with zero leads this month",
+          "metrics": {
+            "cost": 139.59,
+            "clicks": 727,
+            "conversions": 0
+          }
+        },
+        {
+          "campaign": "Dave Fox Jobs",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$106 spent with zero leads this month",
+          "metrics": {
+            "cost": 105.53,
+            "clicks": 311,
+            "conversions": 0
+          }
+        },
+        {
+          "campaign": "Event - March 14 - Showroom Open House - TWM",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$178 spent with zero leads this month",
+          "metrics": {
+            "cost": 178.31,
+            "clicks": 506,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 21.87,
+          "impressions": 1037,
+          "clicks": 32,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.68,
+          "ctr": 0.0309,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.3,
+          "impressions": 17,
+          "clicks": 1,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.3,
+          "ctr": 0.0588,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.19,
+          "impressions": 12,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 3.4,
+          "impressions": 113,
+          "clicks": 9,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.38,
+          "ctr": 0.0796,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.26,
+          "impressions": 15,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.0,
+          "impressions": 1,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.03,
+          "impressions": 4,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.01,
+          "impressions": 3,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 12.78,
+          "impressions": 828,
+          "clicks": 37,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.35,
+          "ctr": 0.0447,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 51.18,
+          "impressions": 4474,
+          "clicks": 200,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.26,
+          "ctr": 0.0447,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Dave Fox Jobs",
+          "campaign_status": "ACTIVE",
+          "cost": 139.59,
+          "impressions": 19938,
+          "clicks": 727,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.19,
+          "ctr": 0.0365,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Dave Fox Jobs",
+          "campaign_status": "ACTIVE",
+          "cost": 105.53,
+          "impressions": 9858,
+          "clicks": 311,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.34,
+          "ctr": 0.0315,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.63,
+          "impressions": 20,
+          "clicks": 1,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.63,
+          "ctr": 0.05,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 1.46,
+          "impressions": 68,
+          "clicks": 2,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.73,
+          "ctr": 0.0294,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.1,
+          "impressions": 139,
+          "clicks": 5,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.02,
+          "ctr": 0.036,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Remarketing - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 2.18,
+          "impressions": 91,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Cold - Conversions - V2",
+          "campaign_status": "ACTIVE",
+          "cost": 0.43,
+          "impressions": 8,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "TWM - Is This The Year 2026",
+          "campaign_status": "ACTIVE",
+          "cost": 3.33,
+          "impressions": 651,
+          "clicks": 7,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.48,
+          "ctr": 0.0108,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Is This The Year 2026",
+          "campaign_status": "ACTIVE",
+          "cost": 11.15,
+          "impressions": 573,
+          "clicks": 15,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.74,
+          "ctr": 0.0262,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "TWM - Is This The Year 2026",
+          "campaign_status": "ACTIVE",
+          "cost": 48.21,
+          "impressions": 2716,
+          "clicks": 112,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.43,
+          "ctr": 0.0412,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Event - March 14 - Showroom Open House - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 178.31,
+          "impressions": 24558,
+          "clicks": 506,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.35,
+          "ctr": 0.0206,
+          "conversion_rate": 0.0
+        }
+      ],
+      "priority_score": 80
+    },
+    {
+      "client_name": "Williams Flowers Bing",
+      "account_name": "Williams Flowers",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "slug": "williams-flowers",
+      "monthly_budget": 15000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 3198.66,
+        "impressions": 14121,
+        "clicks": 717,
+        "conversions": 67,
+        "revenue": 9395.28,
+        "roas": 2.94,
+        "cpc": 4.46,
+        "ctr": 5.08,
+        "conversion_rate": 9.34,
+        "cpl": 47.74
+      },
+      "prior_month": {
+        "cost": 12005.93,
+        "conversions": 257,
+        "revenue": 34181.47,
+        "roas": 2.85
+      },
+      "prior_year": {
+        "cost": 9562.38,
+        "conversions": 213,
+        "revenue": 24924.6,
+        "roas": 2.61
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.94x on $3,199 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $7,628 of $15,000 budget",
+          "detail": "Only 51% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Review if campaigns are limited by budget, bid, or targeting constraints"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Cities_USA (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 1.1x on $260 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 260.24,
+            "revenue": 289.36,
+            "roas": 1.11,
+            "conversions": 1
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Brand",
+          "campaign_status": "Active",
+          "cost": 48.5,
+          "impressions": 230,
+          "clicks": 16,
+          "conversions": 3,
+          "revenue": 317.66,
+          "cpc": 3.03,
+          "ctr": 6.96,
+          "conversion_rate": 18.75
+        },
+        {
+          "campaign_name": "Cities (TWM)",
+          "campaign_status": "Active",
+          "cost": 1544.14,
+          "impressions": 4600,
+          "clicks": 249,
+          "conversions": 29,
+          "revenue": 3736.55,
+          "cpc": 6.2,
+          "ctr": 5.41,
+          "conversion_rate": 11.65
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "Active",
+          "cost": 260.24,
+          "impressions": 2587,
+          "clicks": 91,
+          "conversions": 1,
+          "revenue": 289.36,
+          "cpc": 2.86,
+          "ctr": 3.52,
+          "conversion_rate": 1.1
+        },
+        {
+          "campaign_name": "Neighborhoods (TWM)",
+          "campaign_status": "Active",
+          "cost": 1221.19,
+          "impressions": 4158,
+          "clicks": 331,
+          "conversions": 33,
+          "revenue": 4882.47,
+          "cpc": 3.69,
+          "ctr": 7.96,
+          "conversion_rate": 9.97
+        },
+        {
+          "campaign_name": "PMax (TWM)",
+          "campaign_status": "Budget paused",
+          "cost": 124.59,
+          "impressions": 2546,
+          "clicks": 30,
+          "conversions": 1,
+          "revenue": 169.24,
+          "cpc": 4.15,
+          "ctr": 1.18,
+          "conversion_rate": 3.33
+        }
+      ],
+      "priority_score": 76.0
+    },
+    {
+      "client_name": "Bedford Village (FB Ads)",
+      "account_name": "Bedford Village",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "slug": "bedford-village",
+      "monthly_budget": 500,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 167.1,
+        "impressions": 8956,
+        "clicks": 128,
+        "conversions": 3.0,
+        "revenue": 285.12,
+        "roas": 1.71,
+        "cpc": 1.31,
+        "ctr": 0.01,
+        "conversion_rate": 0.02,
+        "cpl": 55.7
+      },
+      "prior_month": {
+        "cost": 431.82,
+        "conversions": 19.0,
+        "revenue": 1126.76,
+        "roas": 2.61
+      },
+      "prior_year": {
+        "cost": 0,
+        "conversions": 5,
+        "revenue": 395.87,
+        "roas": 0.91
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 1.71x on $167 spend. Target is 3.0x+."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 34% vs. last month",
+          "detail": "ROAS went from 2.61x \u2192 1.71x month-over-month."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $398 of $500 budget",
+          "detail": "Only 80% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Compare campaign mix to last month \u2014 identify which campaigns lost efficiency",
+        "Review if campaigns are limited by budget, bid, or targeting constraints"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Catalog - TWM",
+          "issue": "zero_conversions",
+          "severity": "high",
+          "detail": "$51 spent with zero conversions this month",
+          "metrics": {
+            "cost": 50.98,
+            "clicks": 27,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 15.39,
+          "impressions": 1052,
+          "clicks": 14,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.1,
+          "ctr": 0.0133,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 2.37,
+          "impressions": 171,
+          "clicks": 3,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.79,
+          "ctr": 0.0175,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1.42,
+          "impressions": 113,
+          "clicks": 4,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.35,
+          "ctr": 0.0354,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.27,
+          "impressions": 16,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 21.13,
+          "impressions": 1471,
+          "clicks": 26,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.81,
+          "ctr": 0.0177,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 3.18,
+          "impressions": 214,
+          "clicks": 2,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.59,
+          "ctr": 0.9346,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 9.42,
+          "impressions": 608,
+          "clicks": 11,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.86,
+          "ctr": 0.0181,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1.53,
+          "impressions": 73,
+          "clicks": 1,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.53,
+          "ctr": 0.0137,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 14.96,
+          "impressions": 805,
+          "clicks": 5,
+          "conversions": 3.0,
+          "revenue": 285.12,
+          "cpc": 2.99,
+          "ctr": 0.6211,
+          "conversion_rate": 0.6
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 13.93,
+          "impressions": 639,
+          "clicks": 12,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.16,
+          "ctr": 0.0188,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Catalog - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 50.98,
+          "impressions": 1634,
+          "clicks": 27,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.89,
+          "ctr": 0.0165,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 12.9,
+          "impressions": 918,
+          "clicks": 6,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 2.15,
+          "ctr": 0.6536,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Sales - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 15.6,
+          "impressions": 1060,
+          "clicks": 12,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.3,
+          "ctr": 0.0113,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Spring 2026 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.06,
+          "impressions": 7,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Spring 2026 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1.64,
+          "impressions": 80,
+          "clicks": 2,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.82,
+          "ctr": 0.025,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Spring 2026 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.45,
+          "impressions": 10,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Spring 2026 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.88,
+          "impressions": 45,
+          "clicks": 1,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.88,
+          "ctr": 0.0222,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Spring 2026 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.16,
+          "impressions": 8,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Spring 2026 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.83,
+          "impressions": 32,
+          "clicks": 2,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.41,
+          "ctr": 0.0625,
+          "conversion_rate": 0.0
+        }
+      ],
+      "priority_score": 75.5
+    },
+    {
+      "client_name": "Rockcastle Florist Google Ads",
+      "account_name": "Rockcastle",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "rockcastle",
+      "monthly_budget": 25000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 8285.43,
+        "impressions": 46051,
+        "clicks": 2238,
+        "conversions": 283.0,
+        "revenue": 36200.82,
+        "roas": 4.37,
+        "cpc": 3.7,
+        "ctr": 4.86,
+        "conversion_rate": 12.65,
+        "cpl": 29.28
+      },
+      "prior_month": null,
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 4.4x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 4.37x with ~$5,242 unspent budget potential. Revenue opportunity."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $19,758 of $25,000 budget",
+          "detail": "Only 79% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Increase bids or expand targeting on top campaigns to capture more revenue",
+        "ROAS is strong \u2014 increase bids or expand targeting to capture the remaining budget"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Brand TWM",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 26.0x ROAS on $452 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 452.02,
+            "revenue": 11761.9,
+            "roas": 26.02,
+            "conversions": 94.52
+          }
+        },
+        {
+          "campaign": "Flowers TWM",
+          "issue": "scale_opportunity",
+          "severity": "opportunity",
+          "detail": "Strong 5.1x ROAS on $527 \u2014 room to increase budget",
+          "metrics": {
+            "cost": 526.51,
+            "revenue": 2672.54,
+            "roas": 5.08,
+            "conversions": 16.48
+          }
+        },
+        {
+          "campaign": "Dynamic Remarketing (TWM)",
+          "issue": "zero_conversions",
+          "severity": "high",
+          "detail": "$65 spent with zero conversions this month",
+          "metrics": {
+            "cost": 64.74,
+            "clicks": 33,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Brand TWM",
+          "campaign_status": "Enabled",
+          "cost": 452.02,
+          "impressions": 1280,
+          "clicks": 470,
+          "conversions": 94.52,
+          "revenue": 11761.9,
+          "cpc": 0.96,
+          "ctr": 36.72,
+          "conversion_rate": 20.11
+        },
+        {
+          "campaign_name": "Flowers TWM",
+          "campaign_status": "Enabled",
+          "cost": 526.51,
+          "impressions": 3005,
+          "clicks": 181,
+          "conversions": 16.48,
+          "revenue": 2672.54,
+          "cpc": 2.91,
+          "ctr": 6.02,
+          "conversion_rate": 9.11
+        },
+        {
+          "campaign_name": "Rochester (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 1400.03,
+          "impressions": 2842,
+          "clicks": 234,
+          "conversions": 28.0,
+          "revenue": 3544.05,
+          "cpc": 5.98,
+          "ctr": 8.23,
+          "conversion_rate": 11.97
+        },
+        {
+          "campaign_name": "Cities (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 1554.35,
+          "impressions": 2543,
+          "clicks": 345,
+          "conversions": 41.33,
+          "revenue": 5066.54,
+          "cpc": 4.51,
+          "ctr": 13.57,
+          "conversion_rate": 11.98
+        },
+        {
+          "campaign_name": "PMax (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 1361.95,
+          "impressions": 27415,
+          "clicks": 485,
+          "conversions": 28.17,
+          "revenue": 3380.65,
+          "cpc": 2.81,
+          "ctr": 1.77,
+          "conversion_rate": 1.37
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 2925.83,
+          "impressions": 3228,
+          "clicks": 490,
+          "conversions": 74.5,
+          "revenue": 9775.14,
+          "cpc": 5.97,
+          "ctr": 15.18,
+          "conversion_rate": 15.2
+        },
+        {
+          "campaign_name": "Dynamic Remarketing (TWM)",
+          "campaign_status": "Enabled",
+          "cost": 64.74,
+          "impressions": 5738,
+          "clicks": 33,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.96,
+          "ctr": 0.58,
+          "conversion_rate": 0.0
+        }
+      ],
+      "priority_score": 73.8
+    },
+    {
+      "client_name": "ConnectorsOnly - Google Ads",
+      "account_name": "Connectors Only",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "connectors-only",
+      "monthly_budget": 3500,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 802.52,
+        "impressions": 115831,
+        "clicks": 1205,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.67,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "prior_month": {
+        "cost": 3240.29,
+        "conversions": 17.51,
+        "revenue": 7045.93,
+        "roas": 2.17
+      },
+      "prior_year": null,
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 0.00x on $803 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $1,914 of $3,500 budget",
+          "detail": "Only 55% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Review if campaigns are limited by budget, bid, or targeting constraints"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Search Campaign_TWM",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $187 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 187.26,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 0.0
+          }
+        },
+        {
+          "campaign": "PMax: Starter Shopping Campaign_TWM",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $454 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 453.62,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 0.0
+          }
+        },
+        {
+          "campaign": "Brand_TWM",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.0x on $100 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 100.25,
+            "revenue": 0.0,
+            "roas": 0.0,
+            "conversions": 0.0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Search Campaign_TWM",
+          "campaign_status": "ENABLED",
+          "cost": 187.26,
+          "impressions": 2612,
+          "clicks": 146,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.28,
+          "ctr": 0.0559,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "PMax: Starter Shopping Campaign_TWM",
+          "campaign_status": "ENABLED",
+          "cost": 453.62,
+          "impressions": 105432,
+          "clicks": 978,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.46,
+          "ctr": 0.93,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Brand_TWM",
+          "campaign_status": "ENABLED",
+          "cost": 100.25,
+          "impressions": 289,
+          "clicks": 38,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 2.64,
+          "ctr": 0.1315,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Display - Dynamic Remarketing - US",
+          "campaign_status": "ENABLED",
+          "cost": 44.1,
+          "impressions": 6852,
+          "clicks": 32,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.38,
+          "ctr": 0.47,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Shopping - Fasteners_TWM",
+          "campaign_status": "PAUSED",
+          "cost": 17.29,
+          "impressions": 646,
+          "clicks": 11,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.57,
+          "ctr": 0.017,
+          "conversion_rate": 0.0
+        }
+      ],
+      "priority_score": 73.5
+    },
+    {
+      "client_name": "Rockcastle Florist Bing",
+      "account_name": "Rockcastle",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "slug": "rockcastle",
+      "monthly_budget": 3000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 738.55,
+        "impressions": 2949,
+        "clicks": 237,
+        "conversions": 13,
+        "revenue": 1701.22,
+        "roas": 2.3,
+        "cpc": 3.12,
+        "ctr": 8.04,
+        "conversion_rate": 5.49,
+        "cpl": 56.81
+      },
+      "prior_month": {
+        "cost": 2403.87,
+        "conversions": 50,
+        "revenue": 6339.73,
+        "roas": 2.64
+      },
+      "prior_year": {
+        "cost": 2934.21,
+        "conversions": 85,
+        "revenue": 11547.78,
+        "roas": 3.94
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.30x on $739 spend. Target is 3.0x+."
+        },
+        {
+          "type": "roas_drop_yoy",
+          "headline": "ROAS down 42% vs. same month last year",
+          "detail": "ROAS was 3.94x in 2025-03, now 2.30x."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $1,761 of $3,000 budget",
+          "detail": "Only 59% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Audit campaigns below 3.0x ROAS \u2014 pause worst performers or tighten targeting",
+        "Check for market shifts, competitor activity, or landing page issues vs. last year",
+        "Review if campaigns are limited by budget, bid, or targeting constraints"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Cities_USA (TWM)",
+          "issue": "very_low_roas",
+          "severity": "high",
+          "detail": "ROAS of 0.6x on $187 spend \u2014 consider pausing or restructuring",
+          "metrics": {
+            "cost": 187.29,
+            "revenue": 120.0,
+            "roas": 0.64,
+            "conversions": 1
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Brand TWM",
+          "campaign_status": "Active",
+          "cost": 138.95,
+          "impressions": 242,
+          "clicks": 72,
+          "conversions": 9,
+          "revenue": 1069.89,
+          "cpc": 1.93,
+          "ctr": 29.75,
+          "conversion_rate": 12.5
+        },
+        {
+          "campaign_name": "Cities (TWM)",
+          "campaign_status": "Active",
+          "cost": 85.83,
+          "impressions": 462,
+          "clicks": 33,
+          "conversions": 1,
+          "revenue": 120.0,
+          "cpc": 2.6,
+          "ctr": 7.14,
+          "conversion_rate": 3.03
+        },
+        {
+          "campaign_name": "Cities_USA (TWM)",
+          "campaign_status": "Active",
+          "cost": 187.29,
+          "impressions": 847,
+          "clicks": 58,
+          "conversions": 1,
+          "revenue": 120.0,
+          "cpc": 3.23,
+          "ctr": 6.85,
+          "conversion_rate": 1.72
+        },
+        {
+          "campaign_name": "Rochester (TWM)",
+          "campaign_status": "Active",
+          "cost": 194.3,
+          "impressions": 626,
+          "clicks": 39,
+          "conversions": 2,
+          "revenue": 391.33,
+          "cpc": 4.98,
+          "ctr": 6.23,
+          "conversion_rate": 5.13
+        },
+        {
+          "campaign_name": "Flowers TWM",
+          "campaign_status": "Budget paused",
+          "cost": 132.18,
+          "impressions": 772,
+          "clicks": 35,
+          "conversions": 0,
+          "revenue": 0.0,
+          "cpc": 3.78,
+          "ctr": 4.53,
+          "conversion_rate": 0.0
+        }
+      ],
+      "priority_score": 73.0
+    },
+    {
+      "client_name": "Hall's Flowers",
+      "account_name": "Halls Flower",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "slug": "halls-flower",
+      "monthly_budget": 7750,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 1700.31,
+        "impressions": 1871,
+        "clicks": 382,
+        "conversions": 53.89,
+        "revenue": 7081.25,
+        "roas": 4.16,
+        "cpc": 4.45,
+        "ctr": 0.2,
+        "conversion_rate": 0.14,
+        "cpl": 31.55
+      },
+      "prior_month": {
+        "cost": 3756.66,
+        "conversions": 188.57,
+        "revenue": 21283.35,
+        "roas": 5.67
+      },
+      "prior_year": {
+        "cost": 8099.36,
+        "conversions": 361.96,
+        "revenue": 22286.58,
+        "roas": 2.75
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 4.2x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 4.16x with ~$3,695 unspent budget potential. Revenue opportunity."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 27% vs. last month",
+          "detail": "ROAS went from 5.67x \u2192 4.16x month-over-month."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $4,055 of $7,750 budget",
+          "detail": "Only 52% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "actions": [
+        "Increase bids or expand targeting on top campaigns to capture more revenue",
+        "Compare campaign mix to last month \u2014 identify which campaigns lost efficiency",
+        "ROAS is strong \u2014 increase bids or expand targeting to capture the remaining budget"
+      ],
+      "campaign_findings": [],
+      "campaigns": [
+        {
+          "campaign_name": "Brand_TWM",
+          "campaign_status": "ENABLED",
+          "cost": 190.37,
+          "impressions": 273,
+          "clicks": 88,
+          "conversions": 16.89,
+          "revenue": 1987.39,
+          "cpc": 2.16,
+          "ctr": 0.3223,
+          "conversion_rate": 0.192
+        },
+        {
+          "campaign_name": "Cities_TWM",
+          "campaign_status": "ENABLED",
+          "cost": 1509.94,
+          "impressions": 1598,
+          "clicks": 294,
+          "conversions": 37.0,
+          "revenue": 5093.86,
+          "cpc": 5.14,
+          "ctr": 0.184,
+          "conversion_rate": 0.1259
+        }
+      ],
+      "priority_score": 70.6
+    },
+    {
+      "client_name": "Accel Conceptions (FB Ads) - Other",
+      "account_name": "Accel Conceptions",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "slug": "accel-conceptions",
+      "monthly_budget": 3000,
+      "current_month": "2026-03",
+      "current": {
+        "cost": 3871.82,
+        "impressions": 469248,
+        "clicks": 5319,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.73,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "prior_month": {
+        "cost": 6560.08,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0.0
+      },
+      "prior_year": {
+        "cost": 0,
+        "conversions": 0,
+        "revenue": 0.0,
+        "roas": 0.0
+      },
+      "issues": [
+        {
+          "type": "zero_conversions",
+          "headline": "$3,872 spent with ZERO leads this month",
+          "detail": "No conversions tracked. Check conversion tracking, landing pages, and ad targeting."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $6,233",
+          "detail": "Projected: $9,233 vs. budget $3,000 (308%)."
+        }
+      ],
+      "actions": [
+        "Verify conversion tracking is firing. Check landing page load times and form functionality.",
+        "Reduce daily budgets or bids to slow spend rate for remainder of month"
+      ],
+      "campaign_findings": [
+        {
+          "campaign": "Leads V3 - TWM",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$2,662 spent with zero leads this month",
+          "metrics": {
+            "cost": 2662.4,
+            "clicks": 2546,
+            "conversions": 0
+          }
+        },
+        {
+          "campaign": "Leads V3 - TWM",
+          "issue": "zero_leads",
+          "severity": "high",
+          "detail": "$1,159 spent with zero leads this month",
+          "metrics": {
+            "cost": 1158.75,
+            "clicks": 2755,
+            "conversions": 0
+          }
+        }
+      ],
+      "campaigns": [
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 17.28,
+          "impressions": 475,
+          "clicks": 4,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 4.32,
+          "ctr": 0.8421,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.89,
+          "impressions": 27,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1.11,
+          "impressions": 33,
+          "clicks": 1,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.11,
+          "ctr": 0.0303,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 2.67,
+          "impressions": 34,
+          "clicks": 3,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.89,
+          "ctr": 0.0882,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 2662.4,
+          "impressions": 272452,
+          "clicks": 2546,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 1.05,
+          "ctr": 0.9345,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 24.69,
+          "impressions": 1123,
+          "clicks": 10,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 2.47,
+          "ctr": 0.8905,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 3.81,
+          "impressions": 101,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.03,
+          "impressions": 4,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 1158.75,
+          "impressions": 194983,
+          "clicks": 2755,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.42,
+          "ctr": 0.0141,
+          "conversion_rate": 0.0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.12,
+          "impressions": 6,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.02,
+          "impressions": 2,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.0,
+          "impressions": 2,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.01,
+          "impressions": 2,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        },
+        {
+          "campaign_name": "Leads V3 - TWM",
+          "campaign_status": "ACTIVE",
+          "cost": 0.04,
+          "impressions": 4,
+          "clicks": 0,
+          "conversions": 0.0,
+          "revenue": 0.0,
+          "cpc": 0.0,
+          "ctr": 0.0,
+          "conversion_rate": 0
+        }
+      ],
+      "priority_score": 70
+    }
+  ],
+  "remaining": [
+    {
+      "client_name": "Nancy's Floral Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 3500,
+      "current": {
+        "cost": 1371.15,
+        "impressions": 6259,
+        "clicks": 446,
+        "conversions": 34.0,
+        "revenue": 3223.72,
+        "roas": 2.35,
+        "cpc": 3.07,
+        "ctr": 0.07,
+        "conversion_rate": 0.08,
+        "cpl": 40.33
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.35x on $1,371 spend. Target is 3.0x+."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 48% vs. last month",
+          "detail": "ROAS went from 4.55x \u2192 2.35x month-over-month."
+        }
+      ],
+      "priority_score": 68.5
+    },
+    {
+      "client_name": "Blooming Days (Google Ads)",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 2000,
+      "current": {
+        "cost": 797.38,
+        "impressions": 5762,
+        "clicks": 316,
+        "conversions": 11.0,
+        "revenue": 1879.24,
+        "roas": 2.36,
+        "cpc": 2.52,
+        "ctr": 0.05,
+        "conversion_rate": 0.03,
+        "cpl": 72.49
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.36x on $797 spend. Target is 3.0x+."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 53% vs. last month",
+          "detail": "ROAS went from 5.01x \u2192 2.36x month-over-month."
+        }
+      ],
+      "priority_score": 67.0
+    },
+    {
+      "client_name": "BIBIBOP FB ADS",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 20400,
+      "current": {
+        "cost": 1280.98,
+        "impressions": 183800,
+        "clicks": 1011,
+        "conversions": 339.0,
+        "revenue": 11213.29,
+        "roas": 8.75,
+        "cpc": 1.27,
+        "ctr": 0.01,
+        "conversion_rate": 0.34,
+        "cpl": 3.78
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 8.8x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 8.75x with ~$17,345 unspent budget potential. Revenue opportunity."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $3,055 of $20,400 budget",
+          "detail": "Only 15% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 60.3
+    },
+    {
+      "client_name": "Williams Flowers (Portland) Bing Ads",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 5000,
+      "current": {
+        "cost": 3198.66,
+        "impressions": 14121,
+        "clicks": 717,
+        "conversions": 67,
+        "revenue": 9395.28,
+        "roas": 2.94,
+        "cpc": 4.46,
+        "ctr": 5.08,
+        "conversion_rate": 9.34,
+        "cpl": 47.74
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.94x on $3,199 spend. Target is 3.0x+."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $2,628",
+          "detail": "Projected: $7,628 vs. budget $5,000 (153%)."
+        }
+      ],
+      "priority_score": 60.0
+    },
+    {
+      "client_name": "StairpartsOnly - Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 2400,
+      "current": {
+        "cost": 935.18,
+        "impressions": 107529,
+        "clicks": 1843,
+        "conversions": 14.36,
+        "revenue": 2201.66,
+        "roas": 2.35,
+        "cpc": 0.51,
+        "ctr": 0.02,
+        "conversion_rate": 0.01,
+        "cpl": 65.12
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 2.35x on $935 spend. Target is 3.0x+."
+        }
+      ],
+      "priority_score": 52.4
+    },
+    {
+      "client_name": "COMC - Nationwide Childrens' (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 1100,
+      "current": {
+        "cost": 444.79,
+        "impressions": 130514,
+        "clicks": 1761,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.25,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "zero_conversions",
+          "headline": "$445 spent with ZERO leads this month",
+          "detail": "No conversions tracked. Check conversion tracking, landing pages, and ad targeting."
+        }
+      ],
+      "priority_score": 45
+    },
+    {
+      "client_name": "LightUpColumbus Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 1400,
+      "current": {
+        "cost": 253.78,
+        "impressions": 513,
+        "clicks": 41,
+        "conversions": 1.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 6.19,
+        "ctr": 0.08,
+        "conversion_rate": 0.02,
+        "cpl": 253.78
+      },
+      "issues": [
+        {
+          "type": "cpl_spike",
+          "headline": "CPL spiked to $254 (historical median: $66)",
+          "detail": "Cost per lead is 284% above your historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 67% vs. last month",
+          "detail": "Conversions went from 3 \u2192 1."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $605 of $1,400 budget",
+          "detail": "Only 43% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 45
+    },
+    {
+      "client_name": "Nancy's Floral (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 100,
+      "current": {
+        "cost": 33.59,
+        "impressions": 4307,
+        "clicks": 31,
+        "conversions": 4.0,
+        "revenue": 281.8,
+        "roas": 8.39,
+        "cpc": 1.08,
+        "ctr": 0.01,
+        "conversion_rate": 0.13,
+        "cpl": 8.4
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 8.4x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 8.39x with ~$20 unspent budget potential. Revenue opportunity."
+        },
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 64% vs. last month",
+          "detail": "ROAS went from 23.51x \u2192 8.39x month-over-month."
+        }
+      ],
+      "priority_score": 45.0
+    },
+    {
+      "client_name": "Sports Imports (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 900,
+      "current": {
+        "cost": 398.03,
+        "impressions": 67840,
+        "clicks": 1839,
+        "conversions": 3.0,
+        "revenue": 1127.3,
+        "roas": 2.83,
+        "cpc": 0.22,
+        "ctr": 0.03,
+        "conversion_rate": 0.0,
+        "cpl": 132.68
+      },
+      "issues": [
+        {
+          "type": "cpl_spike",
+          "headline": "CPL spiked to $133 (historical median: $55)",
+          "detail": "Cost per lead is 143% above your historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 57% vs. last month",
+          "detail": "Conversions went from 7 \u2192 3."
+        }
+      ],
+      "priority_score": 45
+    },
+    {
+      "client_name": "Dottie's Flowers (Bing)",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 8000,
+      "current": {
+        "cost": 2129.06,
+        "impressions": 6876,
+        "clicks": 519,
+        "conversions": 64.0,
+        "revenue": 9229.89,
+        "roas": 4.34,
+        "cpc": 4.1,
+        "ctr": 0.08,
+        "conversion_rate": 0.12,
+        "cpl": 33.27
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 4.3x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 4.34x with ~$2,923 unspent budget potential. Revenue opportunity."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $5,077 of $8,000 budget",
+          "detail": "Only 63% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 40.8
+    },
+    {
+      "client_name": "LockSets Only (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 300,
+      "current": {
+        "cost": 49.64,
+        "impressions": 2701,
+        "clicks": 30,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 1.65,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 0.00x on $50 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $118 of $300 budget",
+          "detail": "Only 39% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 40.3
+    },
+    {
+      "client_name": "Stairparts (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 300,
+      "current": {
+        "cost": 24.23,
+        "impressions": 2338,
+        "clicks": 62,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.39,
+        "ctr": 0.03,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 0.00x on $24 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $58 of $300 budget",
+          "detail": "Only 19% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 40.3
+    },
+    {
+      "client_name": "Hall's Flowers (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 222,
+      "current": {
+        "cost": 5.05,
+        "impressions": 432,
+        "clicks": 10,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.51,
+        "ctr": 0.02,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 0.00x on $5 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $12 of $222 budget",
+          "detail": "Only 5% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 40.2
+    },
+    {
+      "client_name": "Blooming Days (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 150,
+      "current": {
+        "cost": 24.84,
+        "impressions": 2774,
+        "clicks": 32,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.78,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 0.00x on $25 spend. Target is 3.0x+."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $59 of $150 budget",
+          "detail": "Only 39% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 40.1
+    },
+    {
+      "client_name": "Hall's Flowers (Garden Center)",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 500,
+      "current": {
+        "cost": 1700.31,
+        "impressions": 1871,
+        "clicks": 382,
+        "conversions": 53.89,
+        "revenue": 7081.25,
+        "roas": 4.16,
+        "cpc": 4.45,
+        "ctr": 0.2,
+        "conversion_rate": 0.14,
+        "cpl": 31.55
+      },
+      "issues": [
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 27% vs. last month",
+          "detail": "ROAS went from 5.67x \u2192 4.16x month-over-month."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $3,555",
+          "detail": "Projected: $4,055 vs. budget $500 (811%)."
+        }
+      ],
+      "priority_score": 40
+    },
+    {
+      "client_name": "All A Bloom",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 19000,
+      "current": {
+        "cost": 6742.95,
+        "impressions": 26335,
+        "clicks": 1875,
+        "conversions": 181.0,
+        "revenue": 27921.47,
+        "roas": 4.14,
+        "cpc": 3.6,
+        "ctr": 0.07,
+        "conversion_rate": 0.1,
+        "cpl": 37.25
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 4.1x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 4.14x with ~$2,921 unspent budget potential. Revenue opportunity."
+        }
+      ],
+      "priority_score": 35.4
+    },
+    {
+      "client_name": "Anaheim Hills Florist Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 2500,
+      "current": {
+        "cost": 866.33,
+        "impressions": 4765,
+        "clicks": 269,
+        "conversions": 51.44,
+        "revenue": 3142.35,
+        "roas": 3.63,
+        "cpc": 3.22,
+        "ctr": 5.65,
+        "conversion_rate": 19.12,
+        "cpl": 16.84
+      },
+      "issues": [
+        {
+          "type": "roas_drop_mom",
+          "headline": "ROAS dropped 26% vs. last month",
+          "detail": "ROAS went from 4.91x \u2192 3.63x month-over-month."
+        }
+      ],
+      "priority_score": 35
+    },
+    {
+      "client_name": "Blooms in Bunches (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 200,
+      "current": {
+        "cost": 69.11,
+        "impressions": 4754,
+        "clicks": 66,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 1.05,
+        "ctr": 0.01,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "low_roas",
+          "headline": "ROAS below 3.0x \u2014 focus on improving efficiency",
+          "detail": "Current ROAS is 0.00x on $69 spend. Target is 3.0x+."
+        }
+      ],
+      "priority_score": 30.2
+    },
+    {
+      "client_name": "Connectors Only (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 300,
+      "current": {
+        "cost": 62.06,
+        "impressions": 9169,
+        "clicks": 63,
+        "conversions": 8.0,
+        "revenue": 17970.69,
+        "roas": 289.57,
+        "cpc": 0.99,
+        "ctr": 0.01,
+        "conversion_rate": 0.13,
+        "cpl": 7.76
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 289.6x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 289.57x with ~$152 unspent budget potential. Revenue opportunity."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $148 of $300 budget",
+          "detail": "Only 49% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 30.1
+    },
+    {
+      "client_name": "Cordova Flowers & Gifts",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 9500,
+      "current": {
+        "cost": 3287.26,
+        "impressions": 9143,
+        "clicks": 858,
+        "conversions": 122.0,
+        "revenue": 15263.7,
+        "roas": 4.64,
+        "cpc": 3.83,
+        "ctr": 9.38,
+        "conversion_rate": 14.22,
+        "cpl": 26.94
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 4.6x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 4.64x with ~$1,661 unspent budget potential. Revenue opportunity."
+        }
+      ],
+      "priority_score": 29.7
+    },
+    {
+      "client_name": "All A Bloom (Bing Ads)",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 1000,
+      "current": {
+        "cost": 580.39,
+        "impressions": 3363,
+        "clicks": 160,
+        "conversions": 13,
+        "revenue": 2298.85,
+        "roas": 3.96,
+        "cpc": 3.63,
+        "ctr": 4.76,
+        "conversion_rate": 8.12,
+        "cpl": 44.65
+      },
+      "issues": [
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $384",
+          "detail": "Projected: $1,384 vs. budget $1,000 (138%)."
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "client_name": "Champion Propane",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 4500,
+      "current": {
+        "cost": 1674.07,
+        "impressions": 2645,
+        "clicks": 168,
+        "conversions": 29.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 9.96,
+        "ctr": 6.35,
+        "conversion_rate": 17.26,
+        "cpl": 57.73
+      },
+      "issues": [
+        {
+          "type": "cpl_spike",
+          "headline": "CPL spiked to $58 (historical median: $21)",
+          "detail": "Cost per lead is 177% above your historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 82% vs. last month",
+          "detail": "Conversions went from 158 \u2192 29."
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "client_name": "Champion Propane Bing Ads",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 500,
+      "current": {
+        "cost": 190.12,
+        "impressions": 1500,
+        "clicks": 42,
+        "conversions": 2,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 4.53,
+        "ctr": 2.8,
+        "conversion_rate": 4.76,
+        "cpl": 95.06
+      },
+      "issues": [
+        {
+          "type": "cpl_spike",
+          "headline": "CPL spiked to $95 (historical median: $46)",
+          "detail": "Cost per lead is 108% above your historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 80% vs. last month",
+          "detail": "Conversions went from 10 \u2192 2."
+        }
+      ],
+      "priority_score": 25
+    },
+    {
+      "client_name": "WorthPoint",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 50000,
+      "current": {
+        "cost": 45476.5,
+        "impressions": 3290817,
+        "clicks": 69600,
+        "conversions": 822.2,
+        "revenue": 30195.0,
+        "roas": 0.66,
+        "cpc": 0.65,
+        "ctr": 2.11,
+        "conversion_rate": 1.18,
+        "cpl": 55.31
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $55 (baseline: $57)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $58,444",
+          "detail": "Projected: $108,444 vs. budget $50,000 (217%)."
+        }
+      ],
+      "priority_score": 22.5
+    },
+    {
+      "client_name": "Blooms in Bunches Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 2300,
+      "current": {
+        "cost": 819.19,
+        "impressions": 1343,
+        "clicks": 193,
+        "conversions": 31.0,
+        "revenue": 3773.99,
+        "roas": 4.61,
+        "cpc": 4.24,
+        "ctr": 0.14,
+        "conversion_rate": 0.16,
+        "cpl": 26.43
+      },
+      "issues": [
+        {
+          "type": "scale_opportunity",
+          "headline": "Strong 4.6x ROAS with budget headroom \u2014 scale up",
+          "detail": "ROAS of 4.61x with ~$347 unspent budget potential. Revenue opportunity."
+        }
+      ],
+      "priority_score": 21.1
+    },
+    {
+      "client_name": "Karen's Florist Bing Ads",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 10000,
+      "current": {
+        "cost": 5122.69,
+        "impressions": 13781,
+        "clicks": 1332,
+        "conversions": 95,
+        "revenue": 20727.39,
+        "roas": 4.05,
+        "cpc": 3.85,
+        "ctr": 9.67,
+        "conversion_rate": 7.13,
+        "cpl": 53.92
+      },
+      "issues": [
+        {
+          "type": "overpacing",
+          "headline": "On pace to overspend by $2,216",
+          "detail": "Projected: $12,216 vs. budget $10,000 (122%)."
+        }
+      ],
+      "priority_score": 18.0
+    },
+    {
+      "client_name": "Longmont Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 12750,
+      "current": {
+        "cost": 4180.16,
+        "impressions": 10389,
+        "clicks": 1120,
+        "conversions": 240.0,
+        "revenue": 25892.08,
+        "roas": 6.19,
+        "cpc": 3.73,
+        "ctr": 10.78,
+        "conversion_rate": 21.43,
+        "cpl": 17.42
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $17 (baseline: $25)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $9,968 of $12,750 budget",
+          "detail": "Only 78% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 12.0
+    },
+    {
+      "client_name": "AW Law Ohio",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 2250,
+      "current": {
+        "cost": 375.92,
+        "impressions": 553,
+        "clicks": 92,
+        "conversions": 14.5,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 4.09,
+        "ctr": 0.17,
+        "conversion_rate": 0.16,
+        "cpl": 25.93
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $26 (baseline: $40)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 62% vs. last month",
+          "detail": "Conversions went from 38 \u2192 14."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $896 of $2,250 budget",
+          "detail": "Only 40% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 10
+    },
+    {
+      "client_name": "AW Law Ohio (FB Ads)",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 250,
+      "current": {
+        "cost": 49.12,
+        "impressions": 1522,
+        "clicks": 246,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.2,
+        "ctr": 0.16,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $117 of $250 budget",
+          "detail": "Only 47% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 10
+    },
+    {
+      "client_name": "Blanca Floral",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 3000,
+      "current": {
+        "cost": 916.77,
+        "impressions": 4145,
+        "clicks": 237,
+        "conversions": 21.0,
+        "revenue": 3303.57,
+        "roas": 3.6,
+        "cpc": 3.87,
+        "ctr": 0.06,
+        "conversion_rate": 0.09,
+        "cpl": 43.66
+      },
+      "issues": [
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $2,186 of $3,000 budget",
+          "detail": "Only 73% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 10
+    },
+    {
+      "client_name": "Dottie's Flowers",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 75000,
+      "current": {
+        "cost": 35278.43,
+        "impressions": 99926,
+        "clicks": 6566,
+        "conversions": 811.65,
+        "revenue": 111060.65,
+        "roas": 3.15,
+        "cpc": 5.37,
+        "ctr": 0.07,
+        "conversion_rate": 0.12,
+        "cpl": 43.47
+      },
+      "issues": [],
+      "priority_score": 10.0
+    },
+    {
+      "client_name": "Flowerama Bing",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 5000,
+      "current": {
+        "cost": 1463.04,
+        "impressions": 4511,
+        "clicks": 372,
+        "conversions": 50,
+        "revenue": 5731.11,
+        "roas": 3.92,
+        "cpc": 3.93,
+        "ctr": 8.25,
+        "conversion_rate": 13.44,
+        "cpl": 29.26
+      },
+      "issues": [
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $3,489 of $5,000 budget",
+          "detail": "Only 70% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 10
+    },
+    {
+      "client_name": "LightUpColumbus FB ads",
+      "platform": "meta_ads",
+      "platform_display": "Meta Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 600,
+      "current": {
+        "cost": 5.81,
+        "impressions": 397,
+        "clicks": 8,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.73,
+        "ctr": 0.02,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $14 of $600 budget",
+          "detail": "Only 2% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 10
+    },
+    {
+      "client_name": "Longmont Bing Ads",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 1000,
+      "current": {
+        "cost": 298.65,
+        "impressions": 1562,
+        "clicks": 104,
+        "conversions": 22,
+        "revenue": 2191.41,
+        "roas": 7.34,
+        "cpc": 2.87,
+        "ctr": 6.66,
+        "conversion_rate": 21.15,
+        "cpl": 13.57
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $14 (baseline: $22)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 71% vs. last month",
+          "detail": "Conversions went from 75 \u2192 22."
+        },
+        {
+          "type": "underpacing",
+          "headline": "Underspending \u2014 on pace for only $712 of $1,000 budget",
+          "detail": "Only 71% of budget likely to be used. Potential lost opportunity."
+        }
+      ],
+      "priority_score": 10
+    },
+    {
+      "client_name": "AW Law Michigan",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 1000,
+      "current": {
+        "cost": 375.92,
+        "impressions": 553,
+        "clicks": 92,
+        "conversions": 14.5,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 4.09,
+        "ctr": 0.17,
+        "conversion_rate": 0.16,
+        "cpl": 25.93
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $26 (baseline: $40)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 62% vs. last month",
+          "detail": "Conversions went from 38 \u2192 14."
+        }
+      ],
+      "priority_score": 0
+    },
+    {
+      "client_name": "AW Law Pennsylvania",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 1000,
+      "current": {
+        "cost": 375.92,
+        "impressions": 553,
+        "clicks": 92,
+        "conversions": 14.5,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 4.09,
+        "ctr": 0.17,
+        "conversion_rate": 0.16,
+        "cpl": 25.93
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $26 (baseline: $40)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 62% vs. last month",
+          "detail": "Conversions went from 38 \u2192 14."
+        }
+      ],
+      "priority_score": 0
+    },
+    {
+      "client_name": "Anaheim Hills (Bing Ads)",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 0,
+      "current": {
+        "cost": 51.61,
+        "impressions": 314,
+        "clicks": 20,
+        "conversions": 0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 2.58,
+        "ctr": 6.37,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [],
+      "priority_score": 0
+    },
+    {
+      "client_name": "COMC - Nationwide Childrens' (Google)",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 1100,
+      "current": {
+        "cost": 429.35,
+        "impressions": 1836,
+        "clicks": 77,
+        "conversions": 19.0,
+        "revenue": 19.0,
+        "roas": 0.04,
+        "cpc": 5.58,
+        "ctr": 0.04,
+        "conversion_rate": 0.25,
+        "cpl": 22.6
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $23 (baseline: $46)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 42% vs. last month",
+          "detail": "Conversions went from 33 \u2192 19."
+        }
+      ],
+      "priority_score": 0
+    },
+    {
+      "client_name": "Dave Fox",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 2000,
+      "current": {
+        "cost": 882.64,
+        "impressions": 1449,
+        "clicks": 64,
+        "conversions": 9.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 13.79,
+        "ctr": 0.04,
+        "conversion_rate": 0.14,
+        "cpl": 98.07
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $98 (baseline: $134)",
+          "detail": "Currently at or below historical baseline."
+        }
+      ],
+      "priority_score": 0
+    },
+    {
+      "client_name": "Karen's Florist Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 80000,
+      "current": {
+        "cost": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "conversions": 0.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.0,
+        "ctr": 0,
+        "conversion_rate": 0,
+        "cpl": null
+      },
+      "issues": [],
+      "priority_score": 0.0
+    },
+    {
+      "client_name": "Radebaugh Bing Ads",
+      "platform": "bing_ads",
+      "platform_display": "Bing Ads",
+      "client_type": "ecommerce",
+      "monthly_budget": 1000,
+      "current": {
+        "cost": 384.8,
+        "impressions": 1737,
+        "clicks": 151,
+        "conversions": 24,
+        "revenue": 3228.27,
+        "roas": 8.39,
+        "cpc": 2.55,
+        "ctr": 8.69,
+        "conversion_rate": 15.89,
+        "cpl": 16.03
+      },
+      "issues": [],
+      "priority_score": 0
+    },
+    {
+      "client_name": "Sports Imports Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 12000,
+      "current": {
+        "cost": 4737.47,
+        "impressions": 68188,
+        "clicks": 2042,
+        "conversions": 164.78,
+        "revenue": 10116.24,
+        "roas": 2.14,
+        "cpc": 2.32,
+        "ctr": 0.03,
+        "conversion_rate": 0.08,
+        "cpl": 28.75
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $29 (baseline: $39)",
+          "detail": "Currently at or below historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 53% vs. last month",
+          "detail": "Conversions went from 354 \u2192 165."
+        }
+      ],
+      "priority_score": 0.0
+    },
+    {
+      "client_name": "Teambuildr Google Ads",
+      "platform": "google_ads",
+      "platform_display": "Google Ads",
+      "client_type": "lead_gen",
+      "monthly_budget": 4000,
+      "current": {
+        "cost": 1599.46,
+        "impressions": 31444,
+        "clicks": 2130,
+        "conversions": 84.0,
+        "revenue": 0.0,
+        "roas": 0,
+        "cpc": 0.75,
+        "ctr": 0.07,
+        "conversion_rate": 0.04,
+        "cpl": 19.04
+      },
+      "issues": [
+        {
+          "type": "cpl_tracking",
+          "headline": "CPL at $19 (baseline: $15)",
+          "detail": "Currently above historical baseline."
+        },
+        {
+          "type": "lead_volume_drop",
+          "headline": "Lead volume down 29% vs. last month",
+          "detail": "Conversions went from 118 \u2192 84."
+        }
+      ],
+      "priority_score": 0
+    }
+  ]
+}
